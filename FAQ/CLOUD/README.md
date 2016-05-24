@@ -2,6 +2,7 @@
 
 ##Salesforce
 ###Q
-![](SFDC_Connection_Error.jpg)
+
+![SFDC Connection Error](SFDC_Connection_Error.jpg)
 
 
