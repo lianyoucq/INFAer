@@ -12,4 +12,4 @@ The test connection failed because of the following error: for SFDC_WALKINGNINE.
 ###A
 将Service URL从https://login.salesforce.com/services/Soap/u/34.0 改成https://login.salesforce.com/services/Soap/u/31.0 解决问题
 
-![SFDC Connection Successful](SFDC_Connection_Error.jpg)
+![SFDC Connection Successful](SFDC_Connection_successful.jpg)
