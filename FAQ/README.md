@@ -4,6 +4,6 @@
 
 列举最常见的问题，以及可能的解决方式
 
-##[Command Core dumped](PWC/cmd_core_dumped.md)
+##[Command Core dumped](PWC/README.md)
 
 
