@@ -13,3 +13,4 @@ Configure -> Connection -> New 填写相关信息
 
 ![MySQL Connection](MYSQL_Connection_successful.jpg)
 
+点击Test。
