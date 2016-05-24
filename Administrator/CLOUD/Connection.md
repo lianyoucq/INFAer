@@ -8,3 +8,4 @@ Configure -> Connection -> New 填写相关信息
 点击Test。如果测试失败，请查看[Cloud FAQ](../../FAQ/CLOUD/README.md)
 
 
+##MySQL
