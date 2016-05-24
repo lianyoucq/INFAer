@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        "disqus",
+        "anchors"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "infaer"
+        }
+    }
+}

@@ -1,0 +1,234 @@
+#!/usr/bin/env python
+#-*- coding:utf8 -*-
+import sys
+import os
+from email.parser import Parser
+from email.header import Header, decode_header
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from email.mime.application import MIMEApplication
+from email.utils import formataddr, COMMASPACE, parseaddr
+from smtplib import SMTP_SSL, SMTP
+
+import xml.etree.ElementTree as ET
+from StringIO import StringIO
+
+###################################################################################################
+### 						mail configuration 				 									  
+###################################################################################################
+mailConfFilePath=os.path.dirname(__file__)
+mailConfFile=mailConfFilePath + "/rmail_conf.xml"
+
+mailConfDic_Keys = {'smtp-hostname':True, 'smtp-port':True, 'smtp-ssl':True, 'from':True, 'from-name':False, 
+                    'user':True, 'password':True, 'encoding':False, 'debug':False, 'log':False }
+mailConfDic={}
+
+### Get the rmail configuration from the configuration xml file
+try:
+    root = ET.parse(mailConfFile).getroot()
+except Exception, e:
+    raise Exception("Make sure the {0} is existed and right".format(mailConfFile))
+
+for mInfo in root.findall('mailInfo'):
+	try:
+		smtp_hostname = mInfo.find('smtp-hostname').text
+		mailConfDic.update({'smtp-hostname':smtp_hostname})
+		
+		smtp_port = mInfo.find('smtp-port').text
+		mailConfDic.update({'smtp-port':smtp_port})
+
+		smtp_ssl = mInfo.find('smtp-ssl').text
+		mailConfDic.update({'smtp-ssl':smtp_ssl})
+
+		from_name = mInfo.find('from-name').text
+		mailConfDic.update({'from-name':from_name})
+
+		from_address = mInfo.find('from').text
+		mailConfDic.update({'from':from_address})
+
+		user = mInfo.find('user').text
+		mailConfDic.update({'user':user})
+
+		password = mInfo.find('password').text
+		mailConfDic.update({'password':password})
+
+		encoding = mInfo.find('encoding').text
+		mailConfDic.update({'encoding':encoding})
+
+		debug = mInfo.find('debug').text
+		mailConfDic.update({'debug':debug})
+
+		log = mInfo.find('log').text
+		mailConfDic.update({'log':log})
+	except AttributeError, e:
+		raise Exception("ERROR: All of these parameters: " + str(mailConfDic_Keys.keys()) + " must exist in configuration files")
+
+### Function: Check the mail configuration parameters. if it's none or empty, raise exception
+def chkMailConfParameter(key, value):
+	if value is None or value.lstrip().rstrip() == '':
+		raise Exception('Error: The parameter: {0} is mandatory!'.format(key))
+
+### checking the mandatory keys. 
+for mKey in mailConfDic_Keys.keys():
+	if mailConfDic_Keys.get(mKey):
+		if mailConfDic.has_key(mKey):
+			chkMailConfParameter(mKey, mailConfDic.get(mKey))
+
+###################################################################################################
+### 						 				Log								 					  
+###################################################################################################
+DEBUG = mailConfDic.get('debug')
+LOGFILE = mailConfDic.get('log')
+DEBUGSWITCH = False
+if DEBUG is not None and LOGFILE is not None and LOGFILE.lstrip().rstrip() != '':
+	DEBUGSWITCH = True
+	logger = open(LOGFILE, 'wa')
+
+def log(content, level='INFO', LS=True):
+	msg = "{0}: {1}".format(level, content)
+	if LS:
+		msg +="\n"
+	if DEBUGSWITCH:
+		logger.writelines(msg)
+	elif DEBUG is not None:
+		print msg
+	else:
+		pass
+
+###################################################################################################
+### 						mail message 					  
+###################################################################################################
+### parse the email content
+def parseContent(content):
+	mInst = Parser()
+	mParser = mInst.parse(content)
+
+	####### subject
+	if mParser['Subject'] is not None:
+		subjTemp = decode_header(mParser['Subject'])
+		subjList = []
+		for subj, encoding in subjTemp:
+			if encoding:
+				subj = unicode(subj, encoding).encode(mailConfDic.get('encoding'), 'replace') # replace, strict..
+			subjList.append(subj)
+		subject = ''.join(subjList)
+	else:
+		subject = None
+
+	##### to addresses
+	if mParser['To'] is not None:
+		to_addresses = mParser['To']
+
+	####### other parts
+	bodyList = []
+	htmlList = []
+	attachmentList = []
+	for part in mParser.walk():
+		######## attachments
+		content_disposition = part.get('Content-Disposition')
+		if content_disposition and content_disposition.lower().find('attachment') != -1 :
+			attachment_data = part.get_payload(decode=True)
+			attachment_name = "None"
+			if content_disposition.find('filename')!= -1: 
+				attachment_name = content_disposition.split("filename=")[1].split(';')[0]
+			attachmentObj = StringIO(attachment_data)
+			attachmentObj.name = attachment_name		
+			attachmentList.append(attachmentObj)
+	
+		####### body
+		elif part.get_content_type() == "text/plain":
+			if part.get_content_charset() is not None:
+				bodyList.append(unicode(part.get_payload(decode=True), 
+									part.get_content_charset(), 
+									'replace').encode(mailConfDic.get('encoding'), 'replace'))	
+			else:
+				bodyList.append(part.get_payload(decode=True))
+
+		###### html
+		elif part.get_content_type() == "text/html":
+			if part.get_content_charset() is not None:
+				htmlList.append(unicode(part.get_payload(decode=True), 
+									part.get_content_charset(), 
+									'replace').encode(mailConfDic.get('encoding'), 'replace'))	
+			else:
+				htmlList.append(part.get_payload(decode=True))
+
+	body = None
+	if len(bodyList) != 0:
+		body = "".join(bodyList)
+
+	html = None
+	if len(htmlList) != 0:
+		html = "".join(htmlList) 
+	
+	if len(attachmentList) == 0:
+		attachmentList = None
+
+	return {
+		'subject': subject,
+		'to-addresses': to_addresses,
+		'body': body,
+		'html': html,
+		'attachments': attachmentList
+	}
+
+##################################################################################################
+### 						message																  
+##################################################################################################
+msgContentDic = parseContent(sys.stdin)
+msg = MIMEMultipart()
+msg['Subject'] = msgContentDic.get('subject')
+msg['From'] = formataddr((str(Header(mailConfDic.get('from-name'), 'utf-8')), mailConfDic.get('from') ))
+## msg['From'] = "{0} {1}".format(mailConfDic.get('from-name'), mailConfDic.get('from'))
+## Get the to_addresses
+to_addresses = msgContentDic.get('to-addresses')
+mailConfDic.update({'to-addresses': to_addresses})
+log("the to-addresses is {0}".format(to_addresses))
+msg['To'] = mailConfDic.get('to-addresses')
+
+body = msgContentDic.get('body')
+if body:
+	bodyMsg = MIMEText(body, 'plain')
+	msg.attach(bodyMsg)
+
+html = msgContentDic.get('html')
+if html:
+	htmlMsg = MIMEText(html, 'html')
+	msg.attach(htmlMsg)
+
+attachments = msgContentDic.get('attachments')
+if attachments:
+	for attachment in attachments:
+		filename = attachment.name
+		msg.attach(MIMEApplication(attachment.read(),
+								   Content_Disposition="attachment; filename={0}".format(filename),
+									Name=filename))
+
+log(msg.as_string(), 'DEBUG')
+
+###################################################################################################
+### 						smtp																  
+###################################################################################################
+if mailConfDic.get('smtp-ssl') == 'true':
+	smtp = SMTP_SSL(host=mailConfDic.get('smtp-hostname'), port=mailConfDic.get('smtp-port'))
+else:
+	smtp = SMTP(host=mailConfDic.get('smtp-hostname'), port=mailConfDic.get('smtp-port'))	
+
+### debug level
+if DEBUGSWITCH:
+	smtp.set_debuglevel(1)
+try:
+	### connect to the server
+	smtp.connect(host=mailConfDic.get('smtp-hostname'), port=mailConfDic.get('smtp-port'))
+	smtp.ehlo()
+	#smtp.starttls()
+	smtp.login(mailConfDic.get('user'), mailConfDic.get('password'))
+	
+	smtp.sendmail(mailConfDic.get('from'), mailConfDic.get('to-addresses'), msg.as_string())
+	smtp.quit()
+except Exception, e:
+	log(e, 'ERROR')
+finally:
+	if DEBUGSWITCH:
+		logger.flush()
+		logger.close()	

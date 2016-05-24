@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Arthur>
+	<mailInfo>
+		<!-- smtp server name -->
+		<smtp-hostname>smtp.qq.com</smtp-hostname>
+		<!-- smtp port number -->
+		<smtp-port>465</smtp-port>
+		<!-- true if smtp-ssl is enabled, others are disabled -->
+		<smtp-ssl>true</smtp-ssl>
+        	<from-name>INFAer</from-name>
+		<!-- the Email id which is used to send the email -->
+	        <from>845201629@qq.com</from>
+		<!-- the Email id which is used to login the smtp server -->
+		<user>845201629@qq.com</user>
+		<!-- the password which is used to login the smtp server -->
+		<password></password>
+
+      
+		<!-- default encoding -->
+		<encoding>utf8</encoding>
+		<!-- debug flag -->
+		<debug>true</debug>
+		<!-- if enables debug, the output will be redirect to the log file -->
+		<log>/tmp/rmailDebug.log</log>
+	</mailInfo>
+</Arthur>
