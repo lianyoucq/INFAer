@@ -4,6 +4,7 @@
 
 列举最常见的问题，以及可能的解决方式
 
-##[Command Core dumped](PWC/README.md)
+###PowerCenter
+######[Command Core dumped](PWC/README.md)
 
 
