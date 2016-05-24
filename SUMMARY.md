@@ -13,5 +13,5 @@
 * [INFA扩展](Extools/README.md)
 	- [rmail](Extools/rmail/README.md)
 * [FAQ](FAQ/README.md)
-	- [Command Core dumped](FAQ/README.md)
+	- [Command Core dumped](FAQ/PWC/README.md)
 * [打赏](Donate.md)
