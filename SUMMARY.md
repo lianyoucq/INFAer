@@ -11,7 +11,10 @@
   * Cloud
     * [INFA Cloud注册与Secure Agent安装配置](Administrator/CLOUD/README.md)
 * [INFA扩展](Extools/README.md)
-	- [rmail](Extools/rmail/README.md)
+  - [rmail](Extools/rmail/README.md)
 * [FAQ](FAQ/README.md)
+  * PowerCenter
 	- [Command Core dumped](FAQ/PWC/README.md)
+  * Cloud
+	- [SFDC Connection Error](FAQ/CLOUD/README.md)
 * [打赏](Donate.md)
