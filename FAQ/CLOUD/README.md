@@ -33,7 +33,6 @@ mysql> select version();
 +-----------+
 1 row in set (0.01 sec)
 ```
-
 而数据库jar包的版本还是mysql-connector-java-5.0.8-bin.jar。
 
 所以重新下载对应的版本的jar文件即可。例如mysql-connector-java-5.1.39-bin.jar。然后在重新测试一下。成功。
