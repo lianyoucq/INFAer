@@ -10,6 +10,7 @@
     * [PWC安装与配置](Administrator/PWC/README.md)
   * Cloud
     * [INFA Cloud注册与Secure Agent安装配置](Administrator/CLOUD/README.md)
+    * [创建连接](Administrator/CLOUD/Connection.md)
 * [INFA扩展](Extools/README.md)
   - [rmail](Extools/rmail/README.md)
 * [FAQ](FAQ/README.md)
