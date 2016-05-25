@@ -17,6 +17,8 @@ Configure -> Connection -> New 填写相关信息
 点击Test。
 
 #####MySQL JDBC Type
+创建JDBC连接，需要开启JDBC_IC(Informatica Cloud)插件(Add-on).
+
 
 
 
