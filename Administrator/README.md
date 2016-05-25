@@ -16,4 +16,4 @@
 
 ###Cloud
 ######[INFA Cloud注册与Secure Agent安装配置](CLOUD/README.md)
-
+######[创建连接](CLOUD/Connection.md)
