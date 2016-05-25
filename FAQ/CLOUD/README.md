@@ -1,4 +1,4 @@
-h#Cloud FAQ
+#Cloud FAQ
 
 ##Salesforce
 ###Q
