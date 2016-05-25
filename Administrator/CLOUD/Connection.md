@@ -21,5 +21,5 @@ Configure -> Connection -> New 填写相关信息
 
 ![MYSQL JDBC CONNECTION](cloud_JDBC_Connection_successful.jpg)
 
-
+如果失败了，请查看[Cloud FAQ](../../FAQ/CLOUD/README.md)
 
