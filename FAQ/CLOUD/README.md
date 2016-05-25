@@ -18,5 +18,10 @@ The test connection failed because of the following error: for SFDC_WALKINGNINE.
 ##MySQL JDBC
 ###Q
 ######Key Words: MySQL JDBC
+Jar包已经上传到了指定目录中，在使用MySQL JDBC连接时，出现如下错误。
+
 ![MySQL JDBC Connection faiulre](Cloud_JDBC_CONNECTION_Error.jpg)
+
+
+
 
