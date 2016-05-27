@@ -17,5 +17,5 @@
   * PowerCenter
 	- [Command Core dumped](FAQ/PWC/README.md)
   * Cloud
-	- [SFDC Connection Error](FAQ/CLOUD/README.md)
+	- [连接问题](FAQ/CLOUD/README.md)
 * [打赏](Donate.md)
