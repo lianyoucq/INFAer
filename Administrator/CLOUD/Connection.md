@@ -2,7 +2,6 @@
 INFA Cloud的连接相当丰富，除了一些常规的连接类型外，还有很多的插件(Add-On)可选。见图1，在红色方框里的连接类型都是常规的连接类型。想要开启其它连接插件，请参考图2
 
 ![连接列表](cloud_Connection_list.jpg) 图1
-
 ![连接插件](cloud_Connection_addon.jpg) 图2
 
 ##Salesforce
