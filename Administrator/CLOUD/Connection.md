@@ -1,4 +1,8 @@
 #连接
+INFA Cloud的连接相当丰富，除了一些常规的连接类型外，还有很多的插件(Add-On)可选。
+
+![连接列表](cloud_Connection_list.jpg)
+
 
 ##Salesforce
 Configure -> Connection -> New 填写相关信息
