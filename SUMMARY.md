@@ -16,6 +16,7 @@
 * [FAQ](FAQ/README.md)
   * PowerCenter
 	- [Command Core dumped](FAQ/PWC/README.md)
+	- [Designer DLL name entry missing](FAQ/PWC/Designer_DLL_Missing.md)
   * Cloud
 	- [连接问题](FAQ/CLOUD/README.md)
 * [打赏](Donate.md)
