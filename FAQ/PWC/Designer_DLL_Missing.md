@@ -1,6 +1,6 @@
 #DLL name entry missing
 ##Q:
-在Designer里导入**Postgresql**或者**MySQL**等Informatica原生不支持的ODBC驱动时，报如下错误
+在Designer里导入**Postgresql**或者**MySQL**等Informatica原生不支持的ODBC驱动(DataDirect)时，报如下错误
 
 ![](Designer_DDL_Missing.jpg)
 
