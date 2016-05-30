@@ -34,3 +34,4 @@ notepad C:\Informatica\9.6.1\clients\PowerCenterClient\client\bin\powrmart.ini
 
 ![powrmart.ini](Done_powrmart_ini.jpg)
 
+然后重新打开Designer，就不会出现这个问题了。
