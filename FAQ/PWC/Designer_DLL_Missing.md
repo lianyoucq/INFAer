@@ -21,10 +21,10 @@ OK
 作为一个有追求的INFAer，决定不能忍受这个问题！
 
 在cmd里使用
-
-![cmd](Edit_powrmart_ini.jpg)
-
 ```bash
 notepad C:\Informatica\9.6.1\clients\PowerCenterClient\client\bin\powrmart.ini
 ``` 
+![cmd](Edit_powrmart_ini.jpg)
+
+
 
