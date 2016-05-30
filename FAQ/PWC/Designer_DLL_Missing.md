@@ -36,4 +36,4 @@ notepad C:\Informatica\9.6.1\clients\PowerCenterClient\client\bin\powrmart.ini
 
 然后重新打开Designer，就不会出现这个问题了。
 
-对于MySQL，请使用**MySQL=EXTODBC.DLL**,即可。
+对于MySQL，请使用**MySQL=EXTODBC.DLL**即可。
