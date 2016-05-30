@@ -2,6 +2,9 @@
 
 ##Q:
 在Designer里导入Postgresql或者MySQL等Informatica原生不支持的ODBC驱动时，报如下错误
+
+![](Designer_DDL_Missing.jpg)
+
 ```bash
 ---------------------------
 Designer
@@ -13,3 +16,7 @@ Entry = PostgreSQL
 OK   
 ---------------------------
 ```
+
+##A
+
+
