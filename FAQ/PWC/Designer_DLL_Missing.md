@@ -32,7 +32,7 @@ notepad C:\Informatica\9.6.1\clients\PowerCenterClient\client\bin\powrmart.ini
 
 在[ODBCDLL]里添加一条记录： **PostgreSQL=EXTODBC.DLL**， 如下图：
 
-![powrmart.ini](Done_powrmart_ini.jpg)
+![powrmart.ini](Designer_Done_powrmart_ini.jpg)
 
 然后重新打开Designer，就不会出现这个问题了。
 
