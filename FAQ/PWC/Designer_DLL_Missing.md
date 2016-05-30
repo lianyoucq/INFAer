@@ -20,6 +20,10 @@ OK
 ##A
 作为一个有追求的INFAer，决定不能忍受这个问题！
 
+通过点击OK，你可以获得相关的帮助，例如下图显示，在.ini文件里，添加EXTODBC.DLL来支持PostgreSQL
+
+![Suggest](Suggest_DDL_Missing.jpg)
+
 在cmd里使用
 ```bash
 notepad C:\Informatica\9.6.1\clients\PowerCenterClient\client\bin\powrmart.ini
