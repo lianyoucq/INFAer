@@ -28,7 +28,7 @@ OK
 ```bash
 notepad C:\Informatica\9.6.1\clients\PowerCenterClient\client\bin\powrmart.ini
 ``` 
-![cmd](Edit_powrmart_ini.jpg)
+![cmd](/Designer_Edit_powrmart_ini.jpg)
 
 在[ODBCDLL]里添加一条记录： **PostgreSQL=EXTODBC.DLL**， 如下图：
 
