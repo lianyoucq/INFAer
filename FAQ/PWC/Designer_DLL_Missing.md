@@ -22,13 +22,13 @@ OK
 
 通过点击OK，你可以获得相关的帮助，例如下图显示，在.ini文件里，添加EXTODBC.DLL来支持PostgreSQL
 
-![Suggest](Suggest_DDL_Missing.jpg)
+![Suggest](Designer_Suggest_DDL_Missing.jpg)
 
 在cmd里使用
 ```bash
 notepad C:\Informatica\9.6.1\clients\PowerCenterClient\client\bin\powrmart.ini
 ``` 
-![cmd](/Designer_Edit_powrmart_ini.jpg)
+![cmd](Designer_Edit_powrmart_ini.jpg)
 
 在[ODBCDLL]里添加一条记录： **PostgreSQL=EXTODBC.DLL**， 如下图：
 
