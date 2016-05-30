@@ -9,7 +9,7 @@
             "shortName": "infaer"
         }
         "layout":{
-        
+          	"footerPath" : "layouts/footer.md"
         }
     }
 }
