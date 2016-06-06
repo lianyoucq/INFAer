@@ -6,7 +6,7 @@
 [ddm@infa210 98]$ server stop # ./stop
 ```
 
-##备份
+##备份过期License
 到cfg目录，备份过期的License。
 ```bash
 [ddm@infa210 98]$ cd cfg/
