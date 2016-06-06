@@ -9,7 +9,7 @@
   * PowerCenter
     * [PWC安装与配置](Administrator/PWC/README.md)
   * DDM
-    * [换DDM License](Administrator/DDM/ChangeLicense.md)
+    * [DDM换License](Administrator/DDM/ChangeLicense.md)
   * Cloud
     * [INFA Cloud注册与Secure Agent安装配置](Administrator/CLOUD/README.md)
     * [创建连接](Administrator/CLOUD/Connection.md)
