@@ -1,3 +1,3 @@
 #DDM
 
-#[换DDM License](ChangeLicense.md)
+#[DDM换License](ChangeLicense.md)
