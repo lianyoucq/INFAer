@@ -7,6 +7,7 @@
 ###PowerCenter
 ######[Command Core dumped](PWC/README.md)
 ######[Designer DLL name entry missing](PWC/Designer_DLL_Missing.md)
+######[客户端切换成英文]
 
 ###Cloud
 ######[连接问题](CLOUD/README.md)
