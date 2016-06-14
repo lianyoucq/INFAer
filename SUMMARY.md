@@ -19,7 +19,7 @@
   * PowerCenter
 	- [Command Core dumped](FAQ/PWC/README.md)
 	- [Designer DLL name entry missing](FAQ/PWC/Designer_DLL_Missing.md)
-	- 
+	- [客户端切换成英文](FAQ/PWC/clientsInEnglish.md)
   * Cloud
 	- [连接问题](FAQ/CLOUD/README.md)
 * [打赏](Donate.md)
