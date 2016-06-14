@@ -10,5 +10,6 @@
 * 将所有的ZH.res文件剪切到zhres目录
 
 请参考下面的gif
+
 ![中文环境客户端切换成英文](clientsInEnglishgif.gif)
 
