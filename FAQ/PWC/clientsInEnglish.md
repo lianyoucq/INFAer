@@ -3,7 +3,7 @@
 
 只需要下面的三步
 * 关闭所有Informatica Clients
-* 切换目录到Informatica Clients安装目录,
+* 切换目录到Informatica Clients安装目录
   默认是c:\INFORMATICA\client\9.6.1\clients\PowerCenterClient\client\bin目录
 * 将所有的804.dll文件剪切到804目录
 * 将所有的ZH.res文件剪切到zhres目录
