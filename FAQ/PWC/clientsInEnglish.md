@@ -9,5 +9,5 @@
 * 将所有的ZH.res文件剪切到zhres目录
 
 请参考下面的gif
-[](clientsInEnglishgif.gif)
+![](clientsInEnglishgif.gif)
 
