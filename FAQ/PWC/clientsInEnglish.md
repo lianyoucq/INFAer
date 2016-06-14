@@ -1,5 +1,6 @@
-#中文环境下客户端显示英文
+#中文环境下客户端切换成英文
 种种原因，你懂的。可能你会需要在中文环境下，使用英文客户端界面完成日常工作。
+但是你又不想修改操作系统的地区和语言
 
 只需要下面的四步
 * 关闭所有Informatica Clients
@@ -9,5 +10,5 @@
 * 将所有的ZH.res文件剪切到zhres目录
 
 请参考下面的gif
-![](clientsInEnglishgif.gif)
+![中文环境客户端切换成英文](clientsInEnglishgif.gif)
 
