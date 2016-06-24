@@ -5,7 +5,7 @@
 
 而歪果仁他们都是什么abcd的，怎么把0和1和abcd联系起来呢？关键时刻，我就闪亮登场了，
 我把字符和0和1组成的数字一一对应起来了，人们不需要看着0和1猜是什么字符了，也不需要把字符拆成0和1存在古板的计算机里。举个栗子
-![](http://image.baidu.com/search/detail?ct=503316480&z=0&tn=baiduimagedetail&ipn=d&cl=2&cm=1&sc=0&lm=-1&ie=gbk&pn=3&rn=1&di=201073978710&ln=30&word=%BE%D9%B8%F6%C0%F5%D7%D3&os=1240569107,3383308707&cs=2328419184,3739305307&objurl=http%3A%2F%2Fatt.bbs.duowan.com%2Fforum%2F201411%2F07%2F051445bgo4oyd4wvcb43xy.jpg)
+![](chestnut.jpg)
 此处应该有掌声的！
 
 ![](codepage_bar.jpg) 图1  注1
