@@ -8,5 +8,7 @@
 
 到现在我的家族成员众多，而且分布在全世界各地。
 
+![](codepage_bar.jpg)
+
 ![](codepage_map.jpg)
 
