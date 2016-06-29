@@ -3,6 +3,7 @@
 * [前言](README.md)
 * [INFA开发](Developer/README.md)
   * [字符集自述](Developer/codepage/README.md)
+  * [ASCII字符集编码里的一哥](Developer/codepage/ASCII.md)
 * [INFA管理](Administrator/README.md)
   * Linux
     * [Linux安装与配置](Administrator/LINUX/README.md)
