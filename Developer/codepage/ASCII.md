@@ -1,4 +1,4 @@
-#ASCII字符集编码里的一哥
+#ASCII:字符集编码里的一哥
 
 ![ASCII](asciifull.gif) 图1
 
