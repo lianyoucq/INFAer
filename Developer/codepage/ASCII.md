@@ -19,6 +19,7 @@ ASCII编码，只要是计算机科班出身的人，都太了解它了，而且
 主要是一些控制字符以及符号。
 
 
-> 注1 图片摘自 http://www.asciitable.com/
+> 注1： 图片摘自 http://www.asciitable.com/
 > 
+> 注2： 接下来会说说UTF-8和UTF-16等字符集编码，然后再回到Informatica的字符集编码
 
