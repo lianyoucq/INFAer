@@ -5,6 +5,9 @@
   * [字符集自述](Developer/codepage/README.md)
   * [ASCII字符集编码里的一哥](Developer/codepage/ASCII.md)
   * [UTF-8字符集](Developer/codepage/UTF_8.md)
+  * [BOM](Developer/codepage/BOM.md)
+  * [UTF-16字符集](Developer/codepage/UTF16.md)
+  * [GBK字符集](Developer/codepage/GBK.md)
 * [INFA管理](Administrator/README.md)
   * Linux
     * [Linux安装与配置](Administrator/LINUX/README.md)
