@@ -9,3 +9,8 @@
 [ASCII字符集编码里的一哥](codepage/ASCII.md)
 
 [UTF-8字符集](codepage/UTF_8.md)
+
+[BOM](codepage/BOM.md)
+
+[UTF-16字符集](codepage/UTF16.md)
+
