@@ -14,3 +14,5 @@
 
 [UTF-16字符集](codepage/UTF16.md)
 
+[GBK字符集](codepage/GBK.md)
+
