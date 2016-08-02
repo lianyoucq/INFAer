@@ -1,2 +1,3 @@
-#Informatica PowerCenter 字符编码
+#Informatica PowerCenter服务字符编码
+
 
