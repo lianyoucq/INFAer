@@ -16,3 +16,6 @@
 
 [GBK字符集](codepage/GBK.md)
 
+## 集成服务
+[DatamovementMode](IS/INFA_datamovement.md)
+
