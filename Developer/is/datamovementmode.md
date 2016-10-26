@@ -19,8 +19,8 @@ ASCII模式是garbage-in，garbage-out模式，就是数据怎么进来的，就
 UNICODE模式
 
 ``` flow 
-a->b: addfsdf;
-b->c: dfaslkdfa;
+a=>b: addfsdf;
+b=>c: dfaslkdfa;
 ``` 
 
 
