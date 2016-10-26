@@ -3,7 +3,6 @@
         "disqus",
         "anchors"    
         "new-flowchart"
-
     ],
     "pluginsConfig": {
         "disqus": {
