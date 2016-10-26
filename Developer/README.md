@@ -20,5 +20,5 @@
 
 ## 集成服务
 
-[DataMovementMode](is/datamovementmodemd.md)
+[DataMovementMode](is/datamovementmode.md)
 
