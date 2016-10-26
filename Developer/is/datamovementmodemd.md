@@ -18,7 +18,7 @@ ASCII模式是garbage-in，garbage-out模式，就是数据怎么进来的，就
 
 UNICODE模式
 ``` flow
-A[Source Data] => B[INFA DTM BUFFER]:H 
+A[Source Data] -> B[INFA DTM BUFFER] : 
 
 ```
 
