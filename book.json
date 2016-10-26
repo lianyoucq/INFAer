@@ -2,7 +2,6 @@
     "plugins": [
         "disqus",
         "anchors",
-        "mermaid",
         "mermaid-full"
     ],
     "pluginsConfig": {
