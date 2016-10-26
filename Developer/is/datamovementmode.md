@@ -18,10 +18,6 @@ ASCII模式是garbage-in，garbage-out模式，就是数据怎么进来的，就
 
 UNICODE模式
 
-``` flow 
-a=>b: addfsdf;
-b=>c: dfaslkdfa;
-``` 
 
 
 前面写了很多关于字符集编码的东西，在这里才能真正体现。
