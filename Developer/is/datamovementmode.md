@@ -18,6 +18,27 @@ ASCII模式是garbage-in，garbage-out模式，就是数据怎么进来的，就
 
 UNICODE模式
 
+{% flowchart %} 
+
+st=>start: Start:>http://www.google.com[blank] 
+
+e=>end:>http://www.google.com 
+
+op1=>operation: My Operation 
+
+sub1=>subroutine: My Subroutine 
+
+cond=>condition: Yes or No?:>http://www.google.com 
+
+io=>inputoutput: catch something... 
+
+st->op1->cond cond(yes)->io->e 
+
+cond(no)->sub1(right)->op1 
+
+{% endflowchart %}
+
+
 
 前面写了很多关于字符集编码的东西，在这里才能真正体现。
 
