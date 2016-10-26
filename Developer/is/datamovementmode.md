@@ -18,7 +18,13 @@ ASCII模式是garbage-in，garbage-out模式，就是数据怎么进来的，就
 
 UNICODE模式
 
-``` flowA->>B: 源编码转换成UCS-2编码B->>c: UCS-2编码转换成目标编码```
+``` flow
+
+A->>B: 源编码转换成UCS-2编码
+
+B->>c: UCS-2编码转换成目标编码
+
+```
 
 
 
