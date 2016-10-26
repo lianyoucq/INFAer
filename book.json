@@ -7,9 +7,6 @@
     "pluginsConfig": {
         "disqus": {
             "shortName": "infaer"
-        },
-        "flowchart": { 
-            "line-color": "red" 
         }
     }
 }
