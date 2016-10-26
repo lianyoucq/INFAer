@@ -19,7 +19,10 @@ ASCII模式是garbage-in，garbage-out模式，就是数据怎么进来的，就
 UNICODE模式
 
 ```graph TD 
-A-->B; A-->C; B-->D; C-->D;
+A-->B; 
+A-->C; 
+B-->D; 
+C-->D;
 ```
 
 
