@@ -9,6 +9,7 @@
     * [UTF-16字符集](Developer/codepage/UTF16.md)
     * [GBK字符集](Developer/codepage/GBK.md)
     * [Data Movement Mode](Developer/is/datamovementmode.md)
+    * [ASCII模式一丁点补充](Developer/is/ASCII.md)
 * [INFA管理](Administrator/README.md)
     * Linux
         * [Linux安装与配置](Administrator/LINUX/README.md)

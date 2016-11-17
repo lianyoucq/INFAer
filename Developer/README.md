@@ -22,3 +22,5 @@
 
 [DataMovementMode](is/datamovementmode.md)
 
+[ASCII模式一丁点补充](is/ASCII.md)
+
