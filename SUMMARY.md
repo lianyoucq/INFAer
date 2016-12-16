@@ -10,6 +10,7 @@
     * [GBK字符集](Developer/codepage/GBK.md)
     * [Data Movement Mode](Developer/is/datamovementmode.md)
     * [ASCII模式一丁点补充](Developer/is/ASCII.md)
+    * [参数文件](Developer/parameterFiles.md)
 * [INFA管理](Administrator/README.md)
     * Linux
         * [Linux安装与配置](Administrator/LINUX/README.md)
