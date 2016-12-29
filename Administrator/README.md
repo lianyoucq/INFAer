@@ -20,3 +20,9 @@
 ###Cloud
 ######[INFA Cloud注册与Secure Agent安装配置](CLOUD/README.md)
 ######[创建连接](CLOUD/Connection.md)
+
+
+###ActiveVOS
+ActiveVOS是一个BPM软件，它可以和MDM集成，也可以单独使用。
+
+######[Install ActiveVOS - JBoss in Linux](MDM/ActiveVOS_JBoss_Linux_Installation.md)

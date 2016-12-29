@@ -22,6 +22,8 @@
     * Cloud
         * [INFA Cloud注册与Secure Agent安装配置](Administrator/CLOUD/README.md)
         * [创建连接](Administrator/CLOUD/Connection.md)
+    * MDM
+	    * [Install ActiveVOS - JBoss in Linux](Administrator/MDM/ActiveVOS_JBoss_Linux_Installation.md)
 * [INFA扩展](Extools/README.md)
     * [rmail](Extools/rmail/README.md)
 * [FAQ](FAQ/README.md)
