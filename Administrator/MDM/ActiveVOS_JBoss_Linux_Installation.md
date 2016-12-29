@@ -49,7 +49,7 @@
 
 
 ## Installation Video
-![ActiveVOS JBoss Linux Installation Video](ActiveVOS_JBoss_Linux_Installation.mp4)
+[ActiveVOS JBoss Linux Installation Video](ActiveVOS_JBoss_Linux_Installation.mp4)
 
 
 ## install.properties
