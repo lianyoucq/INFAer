@@ -24,6 +24,8 @@
         * [创建连接](Administrator/CLOUD/Connection.md)
     * MDM
 	    * [Install ActiveVOS - JBoss in Linux](Administrator/MDM/ActiveVOS_JBoss_Linux_Installation.md)
+	* BDM
+		* [BDM概要](Administrator/BDM/README.md)
 * [INFA扩展](Extools/README.md)
     * [rmail](Extools/rmail/README.md)
 * [FAQ](FAQ/README.md)
