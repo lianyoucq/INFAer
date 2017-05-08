@@ -26,3 +26,5 @@
 
 [参数文件](parameterFiles.md)
 
+## 乱码
+[乱码](codepage/GarbagedCharacters.md)
