@@ -18,6 +18,7 @@
         * [Linux基本操作](Administrator/LINUX/BaseOperations.md)
     * PowerCenter
         * [PWC安装与配置](Administrator/PWC/README.md)
+		* [元数据迁移](Administrator/PWC/MigrationA.md)
     * DDM
         * [DDM换License](Administrator/DDM/ChangeLicense.md)
     * Cloud
