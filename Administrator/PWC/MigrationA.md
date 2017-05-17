@@ -41,29 +41,29 @@
 
 ```xml
 
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+<?xml version="1.0" encoding="UTF-8"?>
 
-&lt;Portals xmlns:logservice="http://www.informatica.com/pcsf/logservice" xmlns:domainservice="http://www.informatica.com/pcsf/domainservice" xmlns:domainconfigservice="http://www.informatica.com/pcsf/domainconfigservice" xmlns:alertservice="http://www.informatica.com/pcsf/alertservice" xmlns:usermanagement="http://www.informatica.com/pcsf/usermanagement" xmlns:webserviceshub="http://www.informatica.com/pcsf/webserviceshub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domainbackup="http://www.informatica.com/pcsf/domainbackup" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:licenseusage="http://www.informatica.com/pcsf/licenseusage" xmlns:metadata="http://www.informatica.com/pcsf/metadata" xmlns:common="http://www.informatica.com/pcsf/common"  xsi:type="common:PCSFVector"  objVersion="1.1.19"&gt;
+<Portals xmlns:logservice="http://www.informatica.com/pcsf/logservice" xmlns:domainservice="http://www.informatica.com/pcsf/domainservice" xmlns:domainconfigservice="http://www.informatica.com/pcsf/domainconfigservice" xmlns:alertservice="http://www.informatica.com/pcsf/alertservice" xmlns:usermanagement="http://www.informatica.com/pcsf/usermanagement" xmlns:webserviceshub="http://www.informatica.com/pcsf/webserviceshub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domainbackup="http://www.informatica.com/pcsf/domainbackup" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:licenseusage="http://www.informatica.com/pcsf/licenseusage" xmlns:metadata="http://www.informatica.com/pcsf/metadata" xmlns:common="http://www.informatica.com/pcsf/common"  xsi:type="common:PCSFVector"  objVersion="1.1.19">
 
-&lt;vector xsi:type="domainservice:Portals"  objVersion="1.1.19"&gt;
+<vector xsi:type="domainservice:Portals"  objVersion="1.1.19">
 
-&lt;domainName&gt;Domain_A&lt;/domainName&gt;
+<domainName>Domain_A</domainName>
 
-&lt;address xsi:type="metadata:NodeRef"  objVersion="1.1.19"&gt;
+<address xsi:type="metadata:NodeRef"  objVersion="1.1.19">
 
-&lt;host&gt;A.sleety.com&lt;/host&gt;
+<host>A.sleety.com</host>
 
-&lt;port&gt;6005&lt;/port&gt;
+<port>6005</port>
 
-&lt;/address&gt;
+</address>
 
-&lt;tlsEnabled&gt;false&lt;/tlsEnabled&gt;
+<tlsEnabled>false</tlsEnabled>
 
-&lt;kerberosEnabled&gt;false&lt;/kerberosEnabled&gt;
+<kerberosEnabled>false</kerberosEnabled>
 
-&lt;/vector&gt;
+</vector>
 
-&lt;/Portals&gt;
+</Portals>
 
 ```
 
@@ -71,29 +71,29 @@
 
 ```xml
 
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+<?xml version="1.0" encoding="UTF-8"?>
 
-&lt;Portals xmlns:logservice="http://www.informatica.com/pcsf/logservice" xmlns:domainservice="http://www.informatica.com/pcsf/domainservice" xmlns:domainconfigservice="http://www.informatica.com/pcsf/domainconfigservice" xmlns:alertservice="http://www.informatica.com/pcsf/alertservice" xmlns:usermanagement="http://www.informatica.com/pcsf/usermanagement" xmlns:webserviceshub="http://www.informatica.com/pcsf/webserviceshub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domainbackup="http://www.informatica.com/pcsf/domainbackup" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:licenseusage="http://www.informatica.com/pcsf/licenseusage" xmlns:metadata="http://www.informatica.com/pcsf/metadata" xmlns:common="http://www.informatica.com/pcsf/common"  xsi:type="common:PCSFVector"  objVersion="1.1.19"&gt;
+<Portals xmlns:logservice="http://www.informatica.com/pcsf/logservice" xmlns:domainservice="http://www.informatica.com/pcsf/domainservice" xmlns:domainconfigservice="http://www.informatica.com/pcsf/domainconfigservice" xmlns:alertservice="http://www.informatica.com/pcsf/alertservice" xmlns:usermanagement="http://www.informatica.com/pcsf/usermanagement" xmlns:webserviceshub="http://www.informatica.com/pcsf/webserviceshub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domainbackup="http://www.informatica.com/pcsf/domainbackup" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:licenseusage="http://www.informatica.com/pcsf/licenseusage" xmlns:metadata="http://www.informatica.com/pcsf/metadata" xmlns:common="http://www.informatica.com/pcsf/common"  xsi:type="common:PCSFVector"  objVersion="1.1.19">
 
-&lt;vector xsi:type="domainservice:Portals"  objVersion="1.1.19"&gt;
+<vector xsi:type="domainservice:Portals"  objVersion="1.1.19">
 
-&lt;domainName&gt;Domain_B&lt;/domainName&gt;
+<domainName>Domain_B</domainName>
 
-&lt;address xsi:type="metadata:NodeRef"  objVersion="1.1.19"&gt;
+<address xsi:type="metadata:NodeRef"  objVersion="1.1.19">
 
-&lt;host&gt;B.sleety.com&lt;/host&gt;
+<host>B.sleety.com</host>
 
-&lt;port&gt;6005&lt;/port&gt;
+<port>6005</port>
 
-&lt;/address&gt;
+</address>
 
-&lt;tlsEnabled&gt;false&lt;/tlsEnabled&gt;
+<tlsEnabled>false</tlsEnabled>
 
-&lt;kerberosEnabled&gt;false&lt;/kerberosEnabled&gt;
+<kerberosEnabled>false</kerberosEnabled>
 
-&lt;/vector&gt;
+</vector>
 
-&lt;/Portals&gt;
+</Portals>
 
 ```
 
@@ -103,47 +103,47 @@
 
 ```xml
 
-&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+<?xml version="1.0" encoding="UTF-8"?>
 
-&lt;Portals xmlns:logservice="http://www.informatica.com/pcsf/logservice" xmlns:domainservice="http://www.informatica.com/pcsf/domainservice" xmlns:domainconfigservice="http://www.informatica.com/pcsf/domainconfigservice" xmlns:alertservice="http://www.informatica.com/pcsf/alertservice" xmlns:usermanagement="http://www.informatica.com/pcsf/usermanagement" xmlns:webserviceshub="http://www.informatica.com/pcsf/webserviceshub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domainbackup="http://www.informatica.com/pcsf/domainbackup" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:licenseusage="http://www.informatica.com/pcsf/licenseusage" xmlns:metadata="http://www.informatica.com/pcsf/metadata" xmlns:common="http://www.informatica.com/pcsf/common"  xsi:type="common:PCSFVector"  objVersion="1.1.19"&gt;
+<Portals xmlns:logservice="http://www.informatica.com/pcsf/logservice" xmlns:domainservice="http://www.informatica.com/pcsf/domainservice" xmlns:domainconfigservice="http://www.informatica.com/pcsf/domainconfigservice" xmlns:alertservice="http://www.informatica.com/pcsf/alertservice" xmlns:usermanagement="http://www.informatica.com/pcsf/usermanagement" xmlns:webserviceshub="http://www.informatica.com/pcsf/webserviceshub" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:domainbackup="http://www.informatica.com/pcsf/domainbackup" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:licenseusage="http://www.informatica.com/pcsf/licenseusage" xmlns:metadata="http://www.informatica.com/pcsf/metadata" xmlns:common="http://www.informatica.com/pcsf/common"  xsi:type="common:PCSFVector"  objVersion="1.1.19">
 
-&lt;vector xsi:type="domainservice:Portals"  objVersion="1.1.19"&gt;
+<vector xsi:type="domainservice:Portals"  objVersion="1.1.19">
 
-&lt;domainName&gt;Domain_A&lt;/domainName&gt;
+<domainName>Domain_A</domainName>
 
-&lt;address xsi:type="metadata:NodeRef"  objVersion="1.1.19"&gt;
+<address xsi:type="metadata:NodeRef"  objVersion="1.1.19">
 
-&lt;host&gt;A.sleety.com&lt;/host&gt;
+<host>A.sleety.com</host>
 
-&lt;port&gt;6005&lt;/port&gt;
+<port>6005</port>
 
-&lt;/address&gt;
+</address>
 
-&lt;tlsEnabled&gt;false&lt;/tlsEnabled&gt;
+<tlsEnabled>false</tlsEnabled>
 
-&lt;kerberosEnabled&gt;false&lt;/kerberosEnabled&gt;
+<kerberosEnabled>false</kerberosEnabled>
 
-&lt;/vector&gt;
+</vector>
 
-&lt;vector xsi:type="domainservice:Portals"  objVersion="1.1.19"&gt;
+<vector xsi:type="domainservice:Portals"  objVersion="1.1.19">
 
-&lt;domainName&gt;Domain_B&lt;/domainName&gt;
+<domainName>Domain_B</domainName>
 
-&lt;address xsi:type="metadata:NodeRef"  objVersion="1.1.19"&gt;
+<address xsi:type="metadata:NodeRef"  objVersion="1.1.19">
 
-&lt;host&gt;B.sleety.com&lt;/host&gt;
+<host>B.sleety.com</host>
 
-&lt;port&gt;6005&lt;/port&gt;
+<port>6005</port>
 
-&lt;/address&gt;
+</address>
 
-&lt;tlsEnabled&gt;false&lt;/tlsEnabled&gt;
+<tlsEnabled>false</tlsEnabled>
 
-&lt;kerberosEnabled&gt;false&lt;/kerberosEnabled&gt;
+<kerberosEnabled>false</kerberosEnabled>
 
-&lt;/vector&gt;
+</vector>
 
-&lt;/Portals&gt;
+</Portals>
 
 ```
 
@@ -166,7 +166,7 @@ Informatica PowerCenter支持命令方式实现元数据迁移。
 
 #### 控制文件
 
-这些命令都需要一个控制文件，你可以通过在**复制粘贴**里手动做迁移，默认会在客户端安装目录&lt;installationPath&gt;\clients\PowerCenterClient\client\bin下生成一个默认文件。
+这些命令都需要一个控制文件，你可以通过在**复制粘贴**里手动做迁移，默认会在客户端安装目录<installationPath>\clients\PowerCenterClient\client\bin下生成一个默认文件。
 
 另外，可以查看帮助文档 Command Reference -> Working with pmrep Files
 
