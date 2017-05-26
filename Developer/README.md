@@ -28,3 +28,7 @@
 
 ## 乱码
 [乱码](codepage/GarbagedCharacters.md)
+
+
+## BDM
+[BDM接入KAFKA](devm/BDM_KAFKA.md)
