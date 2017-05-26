@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imx:IMX xmlns:imx="http://com.informatica.imx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" serializationSpecVersion="9.0" crcEnabled="1" xmlns:container="http://com.informatica.adapter.sdkadapter.patternblocks.container/2" versioncontainer="2.2.1" xmlns:asoextension="http://com.informatica.adapter.sdkadapter.asoextension/2" versionasoextension="2.4.0" xmlns:catalog="http://com.informatica.adapter.sdkadapter.patternblocks.catalog/2" versioncatalog="2.2.0" xmlns:flatrecord="http://com.informatica.adapter.sdkadapter.patternblocks.flatrecord/2" versionflatrecord="2.2.0" xmlns:project="http://com.informatica.metadata.common.project/2" versionproject="2.1.0" xmlns:source1="http://com.informatica.metadata.common.txhandlerconfig.source/2" versionsource1="2.1.0" xmlns:source="http://com.informatica.metadata.common.transformation.source/2" versionsource="2.1.0" xmlns:target1="http://com.informatica.metadata.common.txhandlerconfig.target/2" versiontarget1="2.4.0" xmlns:resourceaccess1="http://com.informatica.metadata.common.txhandlerconfig.resourceaccess/2" versionresourceaccess1="2.1.0" xmlns:datasourceoperation="http://com.informatica.metadata.relational.datasourceoperation/2" versiondatasourceoperation="2.9.0" xmlns:sourceoperation="http://com.informatica.adapter.sdkadapter.projection.sourceoperation/2" versionsourceoperation="2.3.0" xmlns:sdkadapter="http://com.informatica.metadata.infasdk.connectinfo.sdkadapter/2" versionsdkadapter="2.1.0" xmlns:optimizerconfig="http://com.informatica.metadata.common.optimizerconfig/1" versionoptimizerconfig="1.0.0" xmlns:connection="http://com.informatica.adapter.kafka.connection/1" versionconnection="1.0.0" xmlns:mapping="http://com.informatica.metadata.common.mapping/2" versionmapping="2.9.0" xmlns:adapter="http://com.informatica.metadata.common.adapter/2" versionadapter="2.2.0" xmlns:sdkmodelextension="http://com.informatica.metadata.infasdk.connectinfo.common.sdkmodelextension/1" versionsdkmodelextension="1.1.0" xmlns:datahandler="http://com.informatica.metadata.common.datahandler/2" versiondatahandler="2.2.0" xmlns:runtime="http://com.informatica.metadata.common.runtime/2" versionruntime="2.12.0" xmlns:dsoconfig1="http://com.informatica.metadata.common.dsoconfig/2" versiondsoconfig1="2.1.0" xmlns:conversionoperation="http://com.informatica.adapter.sdkadapter.projection.conversionoperation/2" versionconversionoperation="2.2.0" xmlns:core="http://com.informatica.metadata.common.core/2" versioncore="2.1.1" xmlns:Hive="http://com.informatica.adapter.Hive/1" versionHive="1.6.0" xmlns:field="http://com.informatica.adapter.sdkadapter.patternblocks.field/2" versionfield="2.2.0" xmlns:datasource="http://com.informatica.metadata.common.datasource/2" versiondatasource="2.2.0" xmlns:genericextension="http://com.informatica.basemodel.utils.metadata.genericextension/1" versiongenericextension="1.1.0" xmlns:typelibrary="http://com.informatica.metadata.common.typesystem.typelibrary/2" versiontypelibrary="2.4.0" xmlns:description="http://com.informatica.metadata.common.description/2" versiondescription="2.1.0" xmlns:datarecord="http://com.informatica.metadata.relational.datarecord/2" versiondatarecord="2.4.0" xmlns:connectinfo="http://com.informatica.metadata.common.connectinfo/2" versionconnectinfo="2.4.0" xmlns:dataformatconfig="http://com.informatica.adapter.sdkadapter.patternblocks.dataformatconfig/2" versiondataformatconfig="2.2.0" xmlns:optimizer="http://com.informatica.metadata.common.optimizer/1" versionoptimizer="1.0.0" xmlns:txhandlerconfig="http://com.informatica.metadata.common.txhandlerconfig/2" versiontxhandlerconfig="2.1.0" xmlns:asoconfig="http://com.informatica.adapter.sdkadapter.asoconfig/2" versionasoconfig="2.3.0" xmlns:parameter="http://com.informatica.metadata.common.parameter/9" versionparameter="9.8.1" xmlns:connection1="http://com.infa.adapter.hadoop.connection/10" versionconnection1="10.3.0" xmlns:projection="http://com.informatica.adapter.sdkadapter.projection/2" versionprojection="2.4.0" xmlns:hadoop="http://com.informatica.metadata.common.runtime.hadoop/1" versionhadoop="1.7.0" xmlns:modelextension="http://com.informatica.metadata.common.modelextension/2" versionmodelextension="2.1.0" xmlns:types="http://com.informatica.metadata.common.types/2" versiontypes="2.3.0" xmlns:expression="http://com.informatica.metadata.common.transformation.expression/2" versionexpression="2.1.1" xmlns:datasourceoperation1="http://com.informatica.metadata.common.datasourceoperation/2" versiondatasourceoperation1="2.5.0" xmlns:genericannotation="http://com.informatica.metadata.common.genericannotation/2" versiongenericannotation="2.1.0" xmlns:transformation="http://com.informatica.metadata.common.transformation/3" versiontransformation="3.3.0" xmlns:logical="http://com.informatica.adapter.sdkadapter.logical/2" versionlogical="2.5.4" xmlns:target="http://com.informatica.metadata.common.transformation.target/2" versiontarget="2.4.0" xmlns:resourceaccess="http://com.informatica.metadata.common.transformation.resourceaccess/2" versionresourceaccess="2.3.0" xmlns:dsoconfig="http://com.informatica.metadata.relational.dsoconfig/2" versiondsoconfig="2.2.0" xmlns:relational="http://com.informatica.metadata.infasdk.dynconnectinfo.relational/1" versionrelational="1.1.0" xmlns:pdo="http://com.informatica.metadata.common.optimizerconfig.pdo/1" versionpdo="1.0.0" xmlns:mergeoperation="http://com.informatica.adapter.sdkadapter.projection.mergeoperation/2" versionmergeoperation="2.4.0" xmlns:typesystem="http://com.informatica.metadata.common.typesystem/2" versiontypesystem="2.2.0" xmlns:aso="http://com.informatica.adapter.sdkadapter.aso/2" versionaso="2.10.0" xmlns:capabilityattribute="http://com.informatica.adapter.sdkadapter.capabilityattribute/2" versioncapabilityattribute="2.3.0" xmlns:sinkoperation="http://com.informatica.adapter.sdkadapter.projection.sinkoperation/2" versionsinkoperation="2.4.0" xsi:schemaLocation="http://com.informatica.imx IMX.xsd http://com.informatica.adapter.sdkadapter.patternblocks.container/2 com.informatica.adapter.sdkadapter.patternblocks.container.xsd http://com.informatica.adapter.sdkadapter.asoextension/2 com.informatica.adapter.sdkadapter.asoextension.xsd http://com.informatica.adapter.sdkadapter.patternblocks.catalog/2 com.informatica.adapter.sdkadapter.patternblocks.catalog.xsd http://com.informatica.adapter.sdkadapter.patternblocks.flatrecord/2 com.informatica.adapter.sdkadapter.patternblocks.flatrecord.xsd http://com.informatica.metadata.common.project/2 com.informatica.metadata.common.project.xsd http://com.informatica.metadata.common.txhandlerconfig.source/2 com.informatica.metadata.common.txhandlerconfig.source.xsd http://com.informatica.metadata.common.transformation.source/2 com.informatica.metadata.common.transformation.source.xsd http://com.informatica.metadata.common.txhandlerconfig.target/2 com.informatica.metadata.common.txhandlerconfig.target.xsd http://com.informatica.metadata.common.txhandlerconfig.resourceaccess/2 com.informatica.metadata.common.txhandlerconfig.resourceaccess.xsd http://com.informatica.metadata.relational.datasourceoperation/2 com.informatica.metadata.relational.datasourceoperation.xsd http://com.informatica.adapter.sdkadapter.projection.sourceoperation/2 com.informatica.adapter.sdkadapter.projection.sourceoperation.xsd http://com.informatica.metadata.infasdk.connectinfo.sdkadapter/2 com.informatica.metadata.infasdk.connectinfo.sdkadapter.xsd http://com.informatica.metadata.common.optimizerconfig/1 com.informatica.metadata.common.optimizerconfig.xsd http://com.informatica.adapter.kafka.connection/1 com.informatica.adapter.kafka.connection.xsd http://com.informatica.metadata.common.mapping/2 com.informatica.metadata.common.mapping.xsd http://com.informatica.metadata.common.adapter/2 com.informatica.metadata.common.adapter.xsd http://com.informatica.metadata.infasdk.connectinfo.common.sdkmodelextension/1 com.informatica.metadata.infasdk.connectinfo.common.sdkmodelextension.xsd http://com.informatica.metadata.common.datahandler/2 com.informatica.metadata.common.datahandler.xsd http://com.informatica.metadata.common.runtime/2 com.informatica.metadata.common.runtime.xsd http://com.informatica.metadata.common.dsoconfig/2 com.informatica.metadata.common.dsoconfig.xsd http://com.informatica.adapter.sdkadapter.projection.conversionoperation/2 com.informatica.adapter.sdkadapter.projection.conversionoperation.xsd http://com.informatica.metadata.common.core/2 com.informatica.metadata.common.core.xsd http://com.informatica.adapter.Hive/1 com.informatica.adapter.Hive.xsd http://com.informatica.adapter.sdkadapter.patternblocks.field/2 com.informatica.adapter.sdkadapter.patternblocks.field.xsd http://com.informatica.metadata.common.datasource/2 com.informatica.metadata.common.datasource.xsd http://com.informatica.basemodel.utils.metadata.genericextension/1 com.informatica.basemodel.utils.metadata.genericextension.xsd http://com.informatica.metadata.common.typesystem.typelibrary/2 com.informatica.metadata.common.typesystem.typelibrary.xsd http://com.informatica.metadata.common.description/2 com.informatica.metadata.common.description.xsd http://com.informatica.metadata.relational.datarecord/2 com.informatica.metadata.relational.datarecord.xsd http://com.informatica.metadata.common.connectinfo/2 com.informatica.metadata.common.connectinfo.xsd http://com.informatica.adapter.sdkadapter.patternblocks.dataformatconfig/2 com.informatica.adapter.sdkadapter.patternblocks.dataformatconfig.xsd http://com.informatica.metadata.common.optimizer/1 com.informatica.metadata.common.optimizer.xsd http://com.informatica.metadata.common.txhandlerconfig/2 com.informatica.metadata.common.txhandlerconfig.xsd http://com.informatica.adapter.sdkadapter.asoconfig/2 com.informatica.adapter.sdkadapter.asoconfig.xsd http://com.informatica.metadata.common.parameter/9 com.informatica.metadata.common.parameter.xsd http://com.infa.adapter.hadoop.connection/10 com.infa.adapter.hadoop.connection.xsd http://com.informatica.adapter.sdkadapter.projection/2 com.informatica.adapter.sdkadapter.projection.xsd http://com.informatica.metadata.common.runtime.hadoop/1 com.informatica.metadata.common.runtime.hadoop.xsd http://com.informatica.metadata.common.modelextension/2 com.informatica.metadata.common.modelextension.xsd http://com.informatica.metadata.common.types/2 com.informatica.metadata.common.types.xsd http://com.informatica.metadata.common.transformation.expression/2 com.informatica.metadata.common.transformation.expression.xsd http://com.informatica.metadata.common.datasourceoperation/2 com.informatica.metadata.common.datasourceoperation.xsd http://com.informatica.metadata.common.genericannotation/2 com.informatica.metadata.common.genericannotation.xsd http://com.informatica.metadata.common.transformation/3 com.informatica.metadata.common.transformation.xsd http://com.informatica.adapter.sdkadapter.logical/2 com.informatica.adapter.sdkadapter.logical.xsd http://com.informatica.metadata.common.transformation.target/2 com.informatica.metadata.common.transformation.target.xsd http://com.informatica.metadata.common.transformation.resourceaccess/2 com.informatica.metadata.common.transformation.resourceaccess.xsd http://com.informatica.metadata.relational.dsoconfig/2 com.informatica.metadata.relational.dsoconfig.xsd http://com.informatica.metadata.infasdk.dynconnectinfo.relational/1 com.informatica.metadata.infasdk.dynconnectinfo.relational.xsd http://com.informatica.metadata.common.optimizerconfig.pdo/1 com.informatica.metadata.common.optimizerconfig.pdo.xsd http://com.informatica.adapter.sdkadapter.projection.mergeoperation/2 com.informatica.adapter.sdkadapter.projection.mergeoperation.xsd http://com.informatica.metadata.common.typesystem/2 com.informatica.metadata.common.typesystem.xsd http://com.informatica.adapter.sdkadapter.aso/2 com.informatica.adapter.sdkadapter.aso.xsd http://com.informatica.adapter.sdkadapter.capabilityattribute/2 com.informatica.adapter.sdkadapter.capabilityattribute.xsd http://com.informatica.adapter.sdkadapter.projection.sinkoperation/2 com.informatica.adapter.sdkadapter.projection.sinkoperation.xsd">
+<mapping:Mapping imx:id="U:m7gYxRnzEeeAiiXL-0nw7Q" name="m_kafka2hive_20170405">
+<characteristics>
+<Characteristic imx:id="ID_1" xsi:type="runtime:RuntimeCharacteristic" maximumRuntimeIntervalPerSource="PT0S" selectedExecutionEnvironmentName="hadoop" stateStore.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.StateStore">
+<environments>
+<ExecutionEnvironment imx:id="ID_2" xsi:type="hadoop:SparkYarnExecutionEngine" version="1.5.1">
+<executionConfig imx:id="ID_3" xsi:type="hadoop:HadoopExecutionConfig" connectInfo="stringIdentity:DFS_HADOOP" connectionName="DFS_HADOOP"/>
+</ExecutionEnvironment>
+</environments>
+<handlers>
+<TxHandlerConfig imx:id="ID_4" xsi:type="source1:SourceTxHandlerConfig" txInstance="U:B5sz_TtvEeegF46vxu3FcQ" selectedAdapter="smd:com.informatica.adapter.seed.sdkadapter.CanonicalSDKAdapter.sdkDataAdapter"/>
+<TxHandlerConfig imx:id="ID_5" xsi:type="target1:TargetTxHandlerConfig" txInstance="U:4qqQxjt5EeegF46vxu3FcQ" selectedAdapter="smd:com.informatica.metadata.seed.relational.CanonicalRelational.relationalWriterDataAdapter" rejectDirectory.="smd:com.informatica.metadata.common.parameter.util.InfaParameterSeed.RejectDir" rejectFile="Write_tgt_triple.bad"/>
+</handlers>
+<streamingConfig imx:id="ID_6" xsi:type="runtime:StreamingConfig" batchInterval="PT20S"/>
+</Characteristic>
+<Characteristic imx:id="ID_7" xsi:type="optimizer:OptimizerCharacteristic">
+<configs>
+<OptimizerConfig imx:id="ID_8" xsi:type="pdo:PushdownConfig"/>
+</configs>
+</Characteristic>
+</characteristics>
+<definedLibraries imx:id="U:m7gYxhnzEeeAiiXL-0nw7Q" xsi:type="typelibrary:TypeLibrary" name="DefinedTypeLibrary" typeSystem="smd:com.informatica.metadata.seed.platform.Platform.typesystem"/>
+<instances>
+<Instance imx:id="U:B5sz_TtvEeegF46vxu3FcQ" xsi:type="mapping:Instance" name="Adoo_read" transformation="U:B5s0ADtvEeegF46vxu3FcQ">
+<fromOutlineLinks>
+<OutlineLink imx:id="ID_9" xsi:type="mapping:OutlineLink" fromInstance="U:B5sz_TtvEeegF46vxu3FcQ" toInstance="U:4qqQxjt5EeegF46vxu3FcQ"/>
+<OutlineLink imx:id="ID_10" xsi:type="mapping:OutlineLink" fromInstance="U:B5sz_TtvEeegF46vxu3FcQ" toInstance="U:Y0P4DD9YEeegg52wCyC9xw"/>
+</fromOutlineLinks>
+<ports>
+<TransformationFieldPort imx:id="ID_11" xsi:type="mapping:TransformationFieldPort" instance="U:B5sz_TtvEeegF46vxu3FcQ" transformationField="U:B5s0CTtvEeegF46vxu3FcQ">
+<children>
+<NestedPort imx:id="ID_12" xsi:type="mapping:NestedPort" toPorts="ID_13" parent="ID_11" structuralFeature="U:kSK-WD9WEeegg52wCyC9xw"/>
+<NestedPort imx:id="ID_14" xsi:type="mapping:NestedPort" toPorts="ID_15" parent="ID_11" structuralFeature="U:kSK-WT9WEeegg52wCyC9xw"/>
+<NestedPort imx:id="ID_16" xsi:type="mapping:NestedPort" toPorts="ID_17" parent="ID_11" structuralFeature="U:kSK-VT9WEeegg52wCyC9xw"/>
+</children>
+</TransformationFieldPort>
+</ports>
+</Instance>
+<Instance imx:id="U:4qqQxjt5EeegF46vxu3FcQ" xsi:type="mapping:Instance" name="Write_tgt_triple" toOutlineLinks="ID_9 ID_18" transformation="U:4qqQxzt5EeegF46vxu3FcQ">
+<ports>
+<TransformationFieldPort imx:id="ID_19" xsi:type="mapping:TransformationFieldPort" instance="U:4qqQxjt5EeegF46vxu3FcQ" transformationField="U:4qre6jt5EeegF46vxu3FcQ">
+<children>
+<NestedPort imx:id="ID_13" xsi:type="mapping:NestedPort" fromPort="ID_12" parent="ID_19" structuralFeature="U:4qre7jt5EeegF46vxu3FcQ"/>
+<NestedPort imx:id="ID_15" xsi:type="mapping:NestedPort" fromPort="ID_14" parent="ID_19" structuralFeature="U:4qre7zt5EeegF46vxu3FcQ"/>
+<NestedPort imx:id="ID_20" xsi:type="mapping:NestedPort" fromPort="ID_21" parent="ID_19" structuralFeature="U:4qre7Tt5EeegF46vxu3FcQ"/>
+</children>
+</TransformationFieldPort>
+</ports>
+</Instance>
+<Instance imx:id="U:Y0P4DD9YEeegg52wCyC9xw" xsi:type="mapping:Instance" name="Expression" toOutlineLinks="ID_10" transformation="U:Y0P4DT9YEeegg52wCyC9xw">
+<fromOutlineLinks>
+<OutlineLink imx:id="ID_18" xsi:type="mapping:OutlineLink" fromInstance="U:Y0P4DD9YEeegg52wCyC9xw" toInstance="U:4qqQxjt5EeegF46vxu3FcQ"/>
+</fromOutlineLinks>
+<ports>
+<TransformationFieldPort imx:id="ID_17" xsi:type="mapping:TransformationFieldPort" fromPort="ID_16" instance="U:Y0P4DD9YEeegg52wCyC9xw" transformationField="U:Y0P4Dz9YEeegg52wCyC9xw"/>
+<TransformationFieldPort imx:id="ID_21" xsi:type="mapping:TransformationFieldPort" toPorts="ID_20" instance="U:Y0P4DD9YEeegg52wCyC9xw" transformationField="U:Y0P4ED9YEeegg52wCyC9xw"/>
+</ports>
+</Instance>
+</instances>
+<transformations>
+<AbstractTransformation imx:id="U:B5s0ADtvEeegF46vxu3FcQ" xsi:type="source:SourceTx" active="true" name="Adoo_read" dso="U:zpnZxTtuEeegF46vxu3FcQ">
+<sourceInterfaces>
+<SourceDataInterface imx:id="U:B5s0CDtvEeegF46vxu3FcQ" xsi:type="source:SourceDataInterface" name="Group" output="true">
+<sourceFields>
+<SourceTxField imx:id="U:B5s0CTtvEeegF46vxu3FcQ" xsi:type="source:SourceTxField" type="U:zpnZxjtuEeegF46vxu3FcQ" name="Output" output="true"/>
+</sourceFields>
+</SourceDataInterface>
+</sourceInterfaces>
+</AbstractTransformation>
+<AbstractTransformation imx:id="U:4qqQxzt5EeegF46vxu3FcQ" xsi:type="target:TargetTx" active="true" name="Write_tgt_triple" dso="U:4qre6Dt5EeegF46vxu3FcQ">
+<anonymousDso imx:id="U:4qre6Dt5EeegF46vxu3FcQ" xsi:type="datasourceoperation:WriteRelationalDataSourceOperation" name="tgt_triple" loadType="Normal" tableDefinition="U:ly5iChqYEee27w6rmwfkcw" typeSystem="smd:com.informatica.adapter.Hive.HiveTypeSystem.typesystem">
+<defaultConfigs>
+<DSORuntimeConfig imx:id="U:4qre6zt5EeegF46vxu3FcQ" xsi:type="dsoconfig:RelationalDSORuntimeConfig" connectInfo="stringIdentity:HIVE_INFA_TGT" connectionName="HIVE_INFA_TGT"/>
+</defaultConfigs>
+<operations>
+<Capability imx:id="ID_22" xsi:type="datasourceoperation1:WriteCapability" defaultAdapter="smd:com.informatica.metadata.seed.relational.CanonicalRelational.relationalWriterDataAdapter" defaultConfig="U:4qre6zt5EeegF46vxu3FcQ">
+<inGroups>
+<DataAccessGroup imx:id="ID_23" xsi:type="datasourceoperation1:DataAccessGroup" groupType="U:4qre7Dt5EeegF46vxu3FcQ" input="true"/>
+</inGroups>
+</Capability>
+</operations>
+<ownedCapabilityTypes>
+<ComplexType imx:id="U:4qre7Dt5EeegF46vxu3FcQ" xsi:type="typelibrary:ComplexType" name="tgt_triple">
+<features>
+<StructuralFeature imx:id="U:4qre7Tt5EeegF46vxu3FcQ" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Finteger" lower="1" name="x" nullable="true" precision="10" upper="1"/>
+<StructuralFeature imx:id="U:4qre7jt5EeegF46vxu3FcQ" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="y" nullable="true" precision="4000" upper="1"/>
+<StructuralFeature imx:id="U:4qre7zt5EeegF46vxu3FcQ" xsi:type="typelibrary:StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" name="z" nullable="true" precision="4000" upper="1"/>
+</features>
+</ComplexType>
+</ownedCapabilityTypes>
+<relationalFields>
+<RelationalField imx:id="ID_24" xsi:type="datasourceoperation:RelationalField" column="U:ly5iCxqYEee27w6rmwfkcw" feature="U:4qre7Tt5EeegF46vxu3FcQ" name="x" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Finteger" recordInstance="ID_25"/>
+<RelationalField imx:id="ID_26" xsi:type="datasourceoperation:RelationalField" column="U:ly5iDBqYEee27w6rmwfkcw" feature="U:4qre7jt5EeegF46vxu3FcQ" name="y" odbcPrecision="4000" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" recordInstance="ID_25"/>
+<RelationalField imx:id="ID_27" xsi:type="datasourceoperation:RelationalField" column="U:ly5iDRqYEee27w6rmwfkcw" feature="U:4qre7zt5EeegF46vxu3FcQ" name="z" odbcPrecision="4000" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" recordInstance="ID_25"/>
+</relationalFields>
+<relationalRecordInstance imx:id="ID_25" xsi:type="datasourceoperation:RelationalRecordInstance" name="tgt_triple" record="U:ly5iChqYEee27w6rmwfkcw"/>
+</anonymousDso>
+<targetInterfaces>
+<TargetDataInterface imx:id="U:4qre6Tt5EeegF46vxu3FcQ" xsi:type="target:TargetDataInterface" input="true" name="Group">
+<targetFields>
+<TargetTxField imx:id="U:4qre6jt5EeegF46vxu3FcQ" xsi:type="target:TargetTxField" type="U:4qre7Dt5EeegF46vxu3FcQ" input="true" name="Input"/>
+</targetFields>
+</TargetDataInterface>
+</targetInterfaces>
+</AbstractTransformation>
+<AbstractTransformation imx:id="U:Y0P4DT9YEeegg52wCyC9xw" xsi:type="expression:ExpressionTx" name="Expression">
+<expressionInterface>
+<ExpressionDataInterface imx:id="U:Y0P4Dj9YEeegg52wCyC9xw" xsi:type="expression:ExpressionDataInterface" input="true" name="Group" output="true">
+<expressionFields>
+<ExpressionField imx:id="U:Y0P4Dz9YEeegg52wCyC9xw" xsi:type="expression:ExpressionField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" lower="1" precision="255" upper="1" input="true" name="amount"/>
+<ExpressionField imx:id="U:Y0P4ED9YEeegg52wCyC9xw" xsi:type="expression:ExpressionField" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Finteger" lower="1" precision="10" upper="1" name="x" output="true" expression="TO_INTEGER%28amount%29">
+<defaultValue xsi:type="types:StringValue" valueLiteral="ERROR%28%27transformation+error%27%29"/>
+</ExpressionField>
+</expressionFields>
+</ExpressionDataInterface>
+</expressionInterface>
+</AbstractTransformation>
+</transformations>
+</mapping:Mapping>
+<datarecord:Table imx:id="U:ly5iChqYEee27w6rmwfkcw" connection="stringIdentity:HIVE_INFA_TGT" connectionName="HIVE_INFA_TGT" connectionType="com.informatica.adapter.Hive.HiveConnectInfo" name="tgt_triple" ownerName="INFA_TGT" physicalName="tgt_triple">
+<columns>
+<Column imx:id="U:ly5iCxqYEee27w6rmwfkcw" xsi:type="datarecord:Column" type="smd:com.informatica.adapter.Hive.HiveTypeSystem.typesystem%2Fint" name="x" nullable="true" odbcPrecision="10" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Finteger" precision="10"/>
+<Column imx:id="U:ly5iDBqYEee27w6rmwfkcw" xsi:type="datarecord:Column" type="smd:com.informatica.adapter.Hive.HiveTypeSystem.typesystem%2Fstring" name="y" nullable="true" odbcPrecision="4000" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="4000"/>
+<Column imx:id="U:ly5iDRqYEee27w6rmwfkcw" xsi:type="datarecord:Column" type="smd:com.informatica.adapter.Hive.HiveTypeSystem.typesystem%2Fstring" name="z" nullable="true" odbcPrecision="4000" odbcType="smd:com.informatica.metadata.seed.odbc.ODBC.typesystem%2Fvarchar" precision="4000"/>
+</columns>
+</datarecord:Table>
+<aso:D_GenericComplexASO imx:id="U:v-GxFjtuEeegF46vxu3FcQ" name="KDO_SINA_FINANCE_STOCK" extensionId="com.informatica.adapter.kafka" lGraphs="U:v-P7CDtuEeegF46vxu3FcQ" nmoType="topic" patternName="kafkakafka_Topic_Pattern">
+<annotations>
+<Annotation imx:id="ID_29" xsi:type="genericannotation:GenericAnnotation">
+<nameValuePairs>
+<NameValuePair imx:id="ID_30" xsi:type="genericannotation:NameValuePair" name="MetaDataAccessTypeUsed">
+<value xsi:type="types:StringValue" valueLiteral="CONNECTION_BASED"/>
+</NameValuePair>
+</nameValuePairs>
+</Annotation>
+</annotations>
+<asoOperations>
+<D_ASOOperation imx:id="U:zpnZxTtuEeegF46vxu3FcQ" xsi:type="aso:D_ASOOperation" dataSource="U:v-GxFjtuEeegF46vxu3FcQ" name="Adoo_read" baseASO="U:v-GxFjtuEeegF46vxu3FcQ" operationType="TopicRead" typeSystem="smd:com.informatica.adapter.kafka.typesystem.KafkaTypeSystem.typesystem">
+<operations>
+<Capability imx:id="ID_32" xsi:type="datasourceoperation1:ReadCapability" defaultAdapter="smd:com.informatica.adapter.seed.sdkadapter.CanonicalSDKAdapter.sdkDataAdapter" defaultConfig="U:v-P7BztuEeegF46vxu3FcQ">
+<outGroups>
+<DataAccessGroup imx:id="ID_33" xsi:type="datasourceoperation1:DataAccessGroup" groupType="U:zpnZxjtuEeegF46vxu3FcQ"/>
+</outGroups>
+</Capability>
+</operations>
+<ownedCapabilityTypes>
+<ComplexType imx:id="U:zpnZxjtuEeegF46vxu3FcQ" xsi:type="capabilityattribute:D_ComplexType" projectionBindings="U:zpnZxztuEeegF46vxu3FcQ">
+<features>
+<StructuralFeature imx:id="U:kSK-VT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="amount" precision="255"/>
+<StructuralFeature imx:id="U:kSK-Vj9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="buy" precision="255"/>
+<StructuralFeature imx:id="U:kSK-Vz9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="changepercent" precision="255"/>
+<StructuralFeature imx:id="U:kSK-WD9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="code" precision="255"/>
+<StructuralFeature imx:id="U:kSK-WT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="favor" precision="255"/>
+<StructuralFeature imx:id="U:kSK-Wj9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="guba" precision="255"/>
+<StructuralFeature imx:id="U:kSK-Wz9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="high" precision="255"/>
+<StructuralFeature imx:id="U:kSK-XD9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="low" precision="255"/>
+<StructuralFeature imx:id="U:kSK-XT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" name="mktcap" precision="15"/>
+<StructuralFeature imx:id="U:kSK-Xj9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="name" precision="255"/>
+<StructuralFeature imx:id="U:kSK-Xz9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Finteger" name="nmc" precision="10"/>
+<StructuralFeature imx:id="U:kSK-YD9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="nta" precision="255"/>
+<StructuralFeature imx:id="U:kSK-YT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="open" precision="255"/>
+<StructuralFeature imx:id="U:kSK-Yj9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" name="pb" precision="15"/>
+<StructuralFeature imx:id="U:kSK-Yz9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" name="per" precision="15"/>
+<StructuralFeature imx:id="U:kSK-ZD9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" name="per_d" precision="15"/>
+<StructuralFeature imx:id="U:kSK-ZT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="pricechange" precision="255"/>
+<StructuralFeature imx:id="U:kSK-Zj9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="sell" precision="255"/>
+<StructuralFeature imx:id="U:kSK-Zz9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="settlement" precision="255"/>
+<StructuralFeature imx:id="U:kSK-aD9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="stock_type" precision="255"/>
+<StructuralFeature imx:id="U:kSK-aT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="symbol" precision="255"/>
+<StructuralFeature imx:id="U:kSK-aj9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="ticktime" precision="255"/>
+<StructuralFeature imx:id="U:kSK-az9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="trade" precision="255"/>
+<StructuralFeature imx:id="U:kSK-bD9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" name="turnoverratio" precision="15"/>
+<StructuralFeature imx:id="U:kSK-bT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="volume" precision="255"/>
+</features>
+</ComplexType>
+</ownedCapabilityTypes>
+<projections>
+<D_Projection imx:id="U:zpnZxztuEeegF46vxu3FcQ" xsi:type="projection:D_Projection">
+<operations>
+<D_OperationBase imx:id="U:kSJJyj9WEeegg52wCyC9xw" xsi:type="sourceoperation:D_NativeSource" name="NativeSource_sina_finance_stock_a" node="U:v-P7CjtuEeegF46vxu3FcQ">
+<fields>
+<D_FieldBase imx:id="U:kSK-UT9WEeegg52wCyC9xw" xsi:type="projection:D_NativeField" name="partitionId" sdkField="U:v-P7DDtuEeegF46vxu3FcQ"/>
+<D_FieldBase imx:id="U:kSK-Uj9WEeegg52wCyC9xw" xsi:type="projection:D_NativeField" name="key" sdkField="U:v-P7DTtuEeegF46vxu3FcQ"/>
+<D_FieldBase imx:id="U:kSK-Uz9WEeegg52wCyC9xw" xsi:type="projection:D_NativeField" name="TopicName" sdkField="U:v-P7DjtuEeegF46vxu3FcQ"/>
+<D_FieldBase imx:id="U:kSK-VD9WEeegg52wCyC9xw" xsi:type="projection:D_NativeField" name="data" sdkField="U:v-P7DztuEeegF46vxu3FcQ"/>
+</fields>
+</D_OperationBase>
+<D_OperationBase imx:id="U:kSJJyz9WEeegg52wCyC9xw" xsi:type="sourceoperation:D_NativeSource" name="NativeSource_data">
+<fields>
+<D_FieldBase imx:id="U:kSKXKD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="amount" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXKT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="buy" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXKj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="changepercent" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXKz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="code" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXLD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="favor" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXLT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="guba" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXLj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="high" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXLz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="low" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXMD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="mktcap" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:kSKXMT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="name" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXMj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="nmc" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fint"/>
+<D_FieldBase imx:id="U:kSKXMz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="nta" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXND9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="open" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXNT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="pb" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:kSKXNj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="per" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:kSKXNz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="per_d" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:kSKXOD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="pricechange" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXOT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="sell" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXOj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="settlement" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXOz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="stock_type" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXPD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="symbol" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXPT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="ticktime" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXPj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="trade" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSKXPz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="turnoverratio" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:kSKXQD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" name="volume" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+</fields>
+</D_OperationBase>
+<D_OperationBase imx:id="U:kSJJzD9WEeegg52wCyC9xw" xsi:type="mergeoperation:D_MergeOperation" name="MergeDeserializer" inputLeftOperation="U:kSJJyj9WEeegg52wCyC9xw" mergeType="DESERIALIZE" mergedFields="U:kSK-VD9WEeegg52wCyC9xw" replacementFieldEnd="U:kSK-VD9WEeegg52wCyC9xw" replacementFieldStart="U:kSK-VD9WEeegg52wCyC9xw">
+<fields>
+<D_FieldBase imx:id="U:kSJwFD9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSK-UT9WEeegg52wCyC9xw" name="partitionId"/>
+<D_FieldBase imx:id="U:kSKXJT9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSK-Uj9WEeegg52wCyC9xw" name="key"/>
+<D_FieldBase imx:id="U:kSKXJj9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSK-Uz9WEeegg52wCyC9xw" name="TopicName"/>
+<D_FieldBase imx:id="U:kSKXJz9WEeegg52wCyC9xw" xsi:type="projection:D_ComplexField" ancestorField="U:kSK-VD9WEeegg52wCyC9xw" name="data" operation="U:kSJJyz9WEeegg52wCyC9xw"/>
+</fields>
+<dataFormatConfigs>
+<L_DataFormatConfig imx:id="ID_34" xsi:type="dataformatconfig:P_DataFormatConfig" dataFormat="JSON" schema="%7B%0D%0A%09%22sell%22:+%2217.370%22%2C%0D%0A%09%22nmc%22:+694400%2C%0D%0A%09%22code%22:+%22002080%22%2C%0D%0A%09%22symbol%22:+%22sz002080%22%2C%0D%0A%09%22ticktime%22:+%222017-05-1716:+35:+03%22%2C%0D%0A%09%22pricechange%22:+%220.300%22%2C%0D%0A%09%22buy%22:+%2217.360%22%2C%0D%0A%09%22favor%22:+%22%22%2C%0D%0A%09%22mktcap%22:+1400587.76116%2C%0D%0A%09%22per%22:+32.904%2C%0D%0A%09%22volume%22:+%223118747%22%2C%0D%0A%09%22turnoverratio%22:+0.77969%2C%0D%0A%09%22settlement%22:+%2217.060%22%2C%0D%0A%09%22stock_type%22:+%22%EF%BF%BD%EF%BF%BD%D0%A1%EF%BF%BD%EF%BF%BD%22%2C%0D%0A%09%22name%22:+%22%EF%BF%BD%D0%B2%C4%BF%C6%BC%EF%BF%BD%22%2C%0D%0A%09%22open%22:+%2217.070%22%2C%0D%0A%09%22amount%22:+%2254144868%22%2C%0D%0A%09%22high%22:+%2217.600%22%2C%0D%0A%09%22trade%22:+%2217.360%22%2C%0D%0A%09%22low%22:+%2217.040%22%2C%0D%0A%09%22guba%22:+%22%22%2C%0D%0A%09%22changepercent%22:+%221.759%22%2C%0D%0A%09%22nta%22:+%2210.0777%22%2C%0D%0A%09%22per_d%22:+30.239%2C%0D%0A%09%22pb%22:+1.723%0D%0A%7D"/>
+</dataFormatConfigs>
+</D_OperationBase>
+<D_OperationBase imx:id="U:kSJJzT9WEeegg52wCyC9xw" xsi:type="conversionoperation:D_ConversionOperation" name="TypeConvert" inputOperation="U:kSJJzD9WEeegg52wCyC9xw">
+<fields>
+<D_FieldBase imx:id="U:kSJwEz9WEeegg52wCyC9xw" xsi:type="projection:D_ComplexField" ancestorField="U:kSKXJz9WEeegg52wCyC9xw" name="data" operation="U:kSJJzj9WEeegg52wCyC9xw"/>
+</fields>
+</D_OperationBase>
+<D_OperationBase imx:id="U:kSJJzj9WEeegg52wCyC9xw" xsi:type="conversionoperation:D_ConversionOperation" name="TypeConvert_NativeSource_data" inputOperation="U:kSJJyz9WEeegg52wCyC9xw">
+<fields>
+<D_FieldBase imx:id="U:kSJv-j9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXKD9WEeegg52wCyC9xw" name="amount" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJv-z9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXKT9WEeegg52wCyC9xw" name="buy" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJv_D9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXKj9WEeegg52wCyC9xw" name="changepercent" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJv_T9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXKz9WEeegg52wCyC9xw" name="code" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJv_j9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXLD9WEeegg52wCyC9xw" name="favor" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJv_z9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXLT9WEeegg52wCyC9xw" name="guba" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwAD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXLj9WEeegg52wCyC9xw" name="high" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwAT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXLz9WEeegg52wCyC9xw" name="low" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwAj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXMD9WEeegg52wCyC9xw" name="mktcap" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:kSJwAz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXMT9WEeegg52wCyC9xw" name="name" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwBD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXMj9WEeegg52wCyC9xw" name="nmc" precision="10" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Finteger"/>
+<D_FieldBase imx:id="U:kSJwBT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXMz9WEeegg52wCyC9xw" name="nta" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwBj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXND9WEeegg52wCyC9xw" name="open" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwBz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXNT9WEeegg52wCyC9xw" name="pb" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:kSJwCD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXNj9WEeegg52wCyC9xw" name="per" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:kSJwCT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXNz9WEeegg52wCyC9xw" name="per_d" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:kSJwCj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXOD9WEeegg52wCyC9xw" name="pricechange" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwCz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXOT9WEeegg52wCyC9xw" name="sell" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwDD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXOj9WEeegg52wCyC9xw" name="settlement" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwDT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXOz9WEeegg52wCyC9xw" name="stock_type" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwDj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXPD9WEeegg52wCyC9xw" name="symbol" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwDz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXPT9WEeegg52wCyC9xw" name="ticktime" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwED9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXPj9WEeegg52wCyC9xw" name="trade" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:kSJwET9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXPz9WEeegg52wCyC9xw" name="turnoverratio" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:kSJwEj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:kSKXQD9WEeegg52wCyC9xw" name="volume" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+</fields>
+</D_OperationBase>
+<D_OperationBase imx:id="U:kSJJzz9WEeegg52wCyC9xw" xsi:type="mergeoperation:D_MergeOperation" name="MergeSerializer" inputLeftOperation="U:kSJJzT9WEeegg52wCyC9xw" replacementFieldEnd="U:kSJwEz9WEeegg52wCyC9xw" replacementFieldStart="U:kSJwEz9WEeegg52wCyC9xw">
+<fields>
+<D_FieldBase imx:id="U:kSJJ0T9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJv-j9WEeegg52wCyC9xw" name="amount"/>
+<D_FieldBase imx:id="U:kSJJ0j9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJv-z9WEeegg52wCyC9xw" name="buy"/>
+<D_FieldBase imx:id="U:kSJJ0z9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJv_D9WEeegg52wCyC9xw" name="changepercent"/>
+<D_FieldBase imx:id="U:kSJJ1D9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJv_T9WEeegg52wCyC9xw" name="code"/>
+<D_FieldBase imx:id="U:kSJJ1T9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJv_j9WEeegg52wCyC9xw" name="favor"/>
+<D_FieldBase imx:id="U:kSJJ1j9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJv_z9WEeegg52wCyC9xw" name="guba"/>
+<D_FieldBase imx:id="U:kSJJ1z9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwAD9WEeegg52wCyC9xw" name="high"/>
+<D_FieldBase imx:id="U:kSJJ2D9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwAT9WEeegg52wCyC9xw" name="low"/>
+<D_FieldBase imx:id="U:kSJJ2T9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwAj9WEeegg52wCyC9xw" name="mktcap"/>
+<D_FieldBase imx:id="U:kSJJ2j9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwAz9WEeegg52wCyC9xw" name="name"/>
+<D_FieldBase imx:id="U:kSJJ2z9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwBD9WEeegg52wCyC9xw" name="nmc"/>
+<D_FieldBase imx:id="U:kSJJ3D9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwBT9WEeegg52wCyC9xw" name="nta"/>
+<D_FieldBase imx:id="U:kSJJ3T9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwBj9WEeegg52wCyC9xw" name="open"/>
+<D_FieldBase imx:id="U:kSJJ3j9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwBz9WEeegg52wCyC9xw" name="pb"/>
+<D_FieldBase imx:id="U:kSJJ3z9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwCD9WEeegg52wCyC9xw" name="per"/>
+<D_FieldBase imx:id="U:kSJJ4D9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwCT9WEeegg52wCyC9xw" name="per_d"/>
+<D_FieldBase imx:id="U:kSJJ4T9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwCj9WEeegg52wCyC9xw" name="pricechange"/>
+<D_FieldBase imx:id="U:kSJJ4j9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwCz9WEeegg52wCyC9xw" name="sell"/>
+<D_FieldBase imx:id="U:kSJJ4z9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwDD9WEeegg52wCyC9xw" name="settlement"/>
+<D_FieldBase imx:id="U:kSJJ5D9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwDT9WEeegg52wCyC9xw" name="stock_type"/>
+<D_FieldBase imx:id="U:kSJJ5T9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwDj9WEeegg52wCyC9xw" name="symbol"/>
+<D_FieldBase imx:id="U:kSJJ5j9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwDz9WEeegg52wCyC9xw" name="ticktime"/>
+<D_FieldBase imx:id="U:kSJJ5z9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwED9WEeegg52wCyC9xw" name="trade"/>
+<D_FieldBase imx:id="U:kSJJ6D9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwET9WEeegg52wCyC9xw" name="turnoverratio"/>
+<D_FieldBase imx:id="U:kSJJ6T9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:kSJwEj9WEeegg52wCyC9xw" name="volume"/>
+</fields>
+</D_OperationBase>
+<D_OperationBase imx:id="U:kSJJ0D9WEeegg52wCyC9xw" xsi:type="sinkoperation:D_PlatformSink" name="PlatformSink" inputOperation="U:kSJJzz9WEeegg52wCyC9xw" groupType="U:zpnZxjtuEeegF46vxu3FcQ"/>
+</operations>
+</D_Projection>
+</projections>
+<readCapAttributes>
+<D_ReadCapabilityAttributes imx:id="ID_35" xsi:type="capabilityattribute:D_ReadCapabilityAttributes">
+<modelExtension imx:id="ID_36" xsi:type="asoextension:D_GenericModelExtensionReadCapAttributes">
+<genericContainer imx:id="ID_37" xsi:type="genericextension:ExtensionContainer" extensionClass="com.informatica.adapter.kafka.topic.runtime.capability.TopicReadCapabilityAttributesExtension" markerClass="com.informatica.adapter.sdkadapter.capabilityattribute.D_ReadCapabilityAttributes" version="1.0.0">
+<attributes>
+<ExtensionAttribute imx:id="ID_38" xsi:type="genericextension:ExtensionAttribute" propertyName="GuaranteedProcessing">
+<propertyValue imx:id="ID_39" xsi:type="genericextension:BooleanValue" dataValue="true"/>
+</ExtensionAttribute>
+</attributes>
+</genericContainer>
+</modelExtension>
+</D_ReadCapabilityAttributes>
+</readCapAttributes>
+</D_ASOOperation>
+<D_ASOOperation imx:id="U:2tqZyDtuEeegF46vxu3FcQ" xsi:type="aso:D_ASOOperation" dataSource="U:v-GxFjtuEeegF46vxu3FcQ" name="Adoo_topicwrite" baseASO="U:v-GxFjtuEeegF46vxu3FcQ" operationType="TopicWrite" typeSystem="smd:com.informatica.adapter.kafka.typesystem.KafkaTypeSystem.typesystem">
+<operations>
+<Capability imx:id="ID_40" xsi:type="datasourceoperation1:WriteCapability" defaultAdapter="smd:com.informatica.adapter.seed.sdkadapter.CanonicalSDKAdapter.sdkDataAdapter" defaultConfig="U:v-P7BztuEeegF46vxu3FcQ">
+<inGroups>
+<DataAccessGroup imx:id="ID_41" xsi:type="datasourceoperation1:DataAccessGroup" groupType="U:2tqZyTtuEeegF46vxu3FcQ"/>
+</inGroups>
+</Capability>
+</operations>
+<ownedCapabilityTypes>
+<ComplexType imx:id="U:2tqZyTtuEeegF46vxu3FcQ" xsi:type="capabilityattribute:D_ComplexType" projectionBindings="U:2tqZyjtuEeegF46vxu3FcQ">
+<features>
+<StructuralFeature imx:id="U:2tqZ1jtuEeegF46vxu3FcQ" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Finteger" name="partitionId" precision="10"/>
+<StructuralFeature imx:id="U:2tqZ1ztuEeegF46vxu3FcQ" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="key" precision="255"/>
+<StructuralFeature imx:id="U:2tqZ2DtuEeegF46vxu3FcQ" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="TopicName" precision="255"/>
+<StructuralFeature imx:id="U:rvAkGT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="amount" precision="255"/>
+<StructuralFeature imx:id="U:rvAkGj9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="buy" precision="255"/>
+<StructuralFeature imx:id="U:rvAkGz9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="changepercent" precision="255"/>
+<StructuralFeature imx:id="U:rvAkHD9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="code" precision="255"/>
+<StructuralFeature imx:id="U:rvAkHT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="favor" precision="255"/>
+<StructuralFeature imx:id="U:rvAkHj9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="guba" precision="255"/>
+<StructuralFeature imx:id="U:rvAkHz9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="high" precision="255"/>
+<StructuralFeature imx:id="U:rvAkID9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="low" precision="255"/>
+<StructuralFeature imx:id="U:rvAkIT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" name="mktcap" precision="15"/>
+<StructuralFeature imx:id="U:rvAkIj9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="name" precision="255"/>
+<StructuralFeature imx:id="U:rvAkIz9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Finteger" name="nmc" precision="10"/>
+<StructuralFeature imx:id="U:rvAkJD9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="nta" precision="255"/>
+<StructuralFeature imx:id="U:rvAkJT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="open" precision="255"/>
+<StructuralFeature imx:id="U:rvAkJj9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" name="pb" precision="15"/>
+<StructuralFeature imx:id="U:rvAkJz9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" name="per" precision="15"/>
+<StructuralFeature imx:id="U:rvAkKD9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" name="per_d" precision="15"/>
+<StructuralFeature imx:id="U:rvBKOT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="pricechange" precision="255"/>
+<StructuralFeature imx:id="U:rvBKOj9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="sell" precision="255"/>
+<StructuralFeature imx:id="U:rvBKOz9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="settlement" precision="255"/>
+<StructuralFeature imx:id="U:rvBKPD9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="stock_type" precision="255"/>
+<StructuralFeature imx:id="U:rvBKPT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="symbol" precision="255"/>
+<StructuralFeature imx:id="U:rvBKPj9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="ticktime" precision="255"/>
+<StructuralFeature imx:id="U:rvBKPz9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="trade" precision="255"/>
+<StructuralFeature imx:id="U:rvBKQD9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" name="turnoverratio" precision="15"/>
+<StructuralFeature imx:id="U:rvBKQT9WEeegg52wCyC9xw" xsi:type="capabilityattribute:D_StructuralFeature" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" name="volume" precision="255"/>
+</features>
+</ComplexType>
+</ownedCapabilityTypes>
+<projections>
+<D_Projection imx:id="U:2tqZyjtuEeegF46vxu3FcQ" xsi:type="projection:D_Projection" outputProjection="true">
+<operations>
+<D_OperationBase imx:id="U:ru_VmD9WEeegg52wCyC9xw" xsi:type="sourceoperation:D_PlatformSource" name="PlatformSource" group="U:2tqZyTtuEeegF46vxu3FcQ">
+<fields>
+<D_FieldBase imx:id="U:rvAj_T9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="partitionId" precision="10" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Finteger" structuralFeature="U:2tqZ1jtuEeegF46vxu3FcQ"/>
+<D_FieldBase imx:id="U:rvAj_j9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="key" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:2tqZ1ztuEeegF46vxu3FcQ"/>
+<D_FieldBase imx:id="U:rvAj_z9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="TopicName" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:2tqZ2DtuEeegF46vxu3FcQ"/>
+<D_FieldBase imx:id="U:rvAkAD9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="amount" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvAkGT9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkAT9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="buy" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvAkGj9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkAj9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="changepercent" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvAkGz9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkAz9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="code" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvAkHD9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkBD9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="favor" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvAkHT9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkBT9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="guba" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvAkHj9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkBj9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="high" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvAkHz9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkBz9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="low" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvAkID9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkCD9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="mktcap" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" structuralFeature="U:rvAkIT9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkCT9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="name" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvAkIj9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkCj9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="nmc" precision="10" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Finteger" structuralFeature="U:rvAkIz9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkCz9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="nta" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvAkJD9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkDD9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="open" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvAkJT9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkDT9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="pb" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" structuralFeature="U:rvAkJj9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkDj9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="per" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" structuralFeature="U:rvAkJz9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkDz9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="per_d" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" structuralFeature="U:rvAkKD9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkED9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="pricechange" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvBKOT9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkET9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="sell" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvBKOj9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkEj9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="settlement" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvBKOz9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkEz9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="stock_type" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvBKPD9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkFD9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="symbol" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvBKPT9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkFT9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="ticktime" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvBKPj9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkFj9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="trade" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvBKPz9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkFz9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="turnoverratio" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble" structuralFeature="U:rvBKQD9WEeegg52wCyC9xw"/>
+<D_FieldBase imx:id="U:rvAkGD9WEeegg52wCyC9xw" xsi:type="projection:D_PlatformField" name="volume" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring" structuralFeature="U:rvBKQT9WEeegg52wCyC9xw"/>
+</fields>
+</D_OperationBase>
+<D_OperationBase imx:id="U:ru_VmT9WEeegg52wCyC9xw" xsi:type="sourceoperation:D_PlatformSource" name="PlatformSource_data">
+<fields>
+<D_FieldBase imx:id="U:ru_81D9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkAD9WEeegg52wCyC9xw" name="amount" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_81T9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkAT9WEeegg52wCyC9xw" name="buy" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_81j9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkAj9WEeegg52wCyC9xw" name="changepercent" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_81z9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkAz9WEeegg52wCyC9xw" name="code" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_82D9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkBD9WEeegg52wCyC9xw" name="favor" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_82T9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkBT9WEeegg52wCyC9xw" name="guba" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_82j9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkBj9WEeegg52wCyC9xw" name="high" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_82z9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkBz9WEeegg52wCyC9xw" name="low" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_83D9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkCD9WEeegg52wCyC9xw" name="mktcap" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:ru_83T9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkCT9WEeegg52wCyC9xw" name="name" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_83j9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkCj9WEeegg52wCyC9xw" name="nmc" precision="10" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Finteger"/>
+<D_FieldBase imx:id="U:ru_83z9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkCz9WEeegg52wCyC9xw" name="nta" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_84D9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkDD9WEeegg52wCyC9xw" name="open" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_84T9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkDT9WEeegg52wCyC9xw" name="pb" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:ru_84j9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkDj9WEeegg52wCyC9xw" name="per" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:ru_84z9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkDz9WEeegg52wCyC9xw" name="per_d" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:ru_85D9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkED9WEeegg52wCyC9xw" name="pricechange" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_85T9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkET9WEeegg52wCyC9xw" name="sell" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_85j9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkEj9WEeegg52wCyC9xw" name="settlement" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_85z9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkEz9WEeegg52wCyC9xw" name="stock_type" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_86D9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkFD9WEeegg52wCyC9xw" name="symbol" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_86T9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkFT9WEeegg52wCyC9xw" name="ticktime" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_86j9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkFj9WEeegg52wCyC9xw" name="trade" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_86z9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkFz9WEeegg52wCyC9xw" name="turnoverratio" precision="15" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:ru_87D9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:rvAkGD9WEeegg52wCyC9xw" name="volume" precision="255" type="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring"/>
+</fields>
+</D_OperationBase>
+<D_OperationBase imx:id="U:ru_Vmj9WEeegg52wCyC9xw" xsi:type="mergeoperation:D_MergeOperation" name="MergeDeserializer" inputLeftOperation="U:ru_VmD9WEeegg52wCyC9xw" mergeType="DESERIALIZE" replacementFieldEnd="U:rvAkGD9WEeegg52wCyC9xw" replacementFieldStart="U:rvAkAD9WEeegg52wCyC9xw">
+<fields>
+<D_FieldBase imx:id="U:ru_80D9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:rvAj_T9WEeegg52wCyC9xw" name="partitionId"/>
+<D_FieldBase imx:id="U:ru_80T9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:rvAj_j9WEeegg52wCyC9xw" name="key"/>
+<D_FieldBase imx:id="U:ru_80j9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:rvAj_z9WEeegg52wCyC9xw" name="TopicName"/>
+<D_FieldBase imx:id="U:ru_80z9WEeegg52wCyC9xw" xsi:type="projection:D_ComplexField" name="data" operation="U:ru_VmT9WEeegg52wCyC9xw"/>
+</fields>
+</D_OperationBase>
+<D_OperationBase imx:id="U:ru_Vmz9WEeegg52wCyC9xw" xsi:type="conversionoperation:D_ConversionOperation" name="TypeConvert" inputOperation="U:ru_Vmj9WEeegg52wCyC9xw">
+<fields>
+<D_FieldBase imx:id="U:ru_8zD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_80D9WEeegg52wCyC9xw" name="partitionId" precision="12" type="smd:com.informatica.adapter.kafka.typesystem.KafkaTypeSystem.typesystem%2Finteger"/>
+<D_FieldBase imx:id="U:ru_8zT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_80T9WEeegg52wCyC9xw" name="key" precision="255" type="smd:com.informatica.adapter.kafka.typesystem.KafkaTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8zj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_80j9WEeegg52wCyC9xw" name="TopicName" precision="255" type="smd:com.informatica.adapter.kafka.typesystem.KafkaTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8zz9WEeegg52wCyC9xw" xsi:type="projection:D_ComplexField" ancestorField="U:ru_80z9WEeegg52wCyC9xw" name="data" operation="U:ru_VnD9WEeegg52wCyC9xw"/>
+</fields>
+</D_OperationBase>
+<D_OperationBase imx:id="U:ru_VnD9WEeegg52wCyC9xw" xsi:type="conversionoperation:D_ConversionOperation" name="TypeConvert_PlatformSource_data" inputOperation="U:ru_VmT9WEeegg52wCyC9xw">
+<fields>
+<D_FieldBase imx:id="U:ru_Voz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_81D9WEeegg52wCyC9xw" name="amount" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_VpD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_81T9WEeegg52wCyC9xw" name="buy" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_VpT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_81j9WEeegg52wCyC9xw" name="changepercent" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_Vpj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_81z9WEeegg52wCyC9xw" name="code" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8tz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_82D9WEeegg52wCyC9xw" name="favor" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8uD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_82T9WEeegg52wCyC9xw" name="guba" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8uT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_82j9WEeegg52wCyC9xw" name="high" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8uj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_82z9WEeegg52wCyC9xw" name="low" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8uz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_83D9WEeegg52wCyC9xw" name="mktcap" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:ru_8vD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_83T9WEeegg52wCyC9xw" name="name" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8vT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_83j9WEeegg52wCyC9xw" name="nmc" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fint"/>
+<D_FieldBase imx:id="U:ru_8vj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_83z9WEeegg52wCyC9xw" name="nta" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8vz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_84D9WEeegg52wCyC9xw" name="open" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8wD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_84T9WEeegg52wCyC9xw" name="pb" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:ru_8wT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_84j9WEeegg52wCyC9xw" name="per" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:ru_8wj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_84z9WEeegg52wCyC9xw" name="per_d" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:ru_8wz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_85D9WEeegg52wCyC9xw" name="pricechange" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8xD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_85T9WEeegg52wCyC9xw" name="sell" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8xT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_85j9WEeegg52wCyC9xw" name="settlement" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8xj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_85z9WEeegg52wCyC9xw" name="stock_type" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8xz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_86D9WEeegg52wCyC9xw" name="symbol" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8yD9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_86T9WEeegg52wCyC9xw" name="ticktime" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8yT9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_86j9WEeegg52wCyC9xw" name="trade" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+<D_FieldBase imx:id="U:ru_8yj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_86z9WEeegg52wCyC9xw" name="turnoverratio" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fdouble"/>
+<D_FieldBase imx:id="U:ru_8yz9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_87D9WEeegg52wCyC9xw" name="volume" precision="255" type="smd:com.infa.adapter.jsonparser.typesystem.JsonparserTypeSystem.typesystem%2Fstring"/>
+</fields>
+</D_OperationBase>
+<D_OperationBase imx:id="U:ru_VnT9WEeegg52wCyC9xw" xsi:type="mergeoperation:D_MergeOperation" name="MergeSerializer" inputLeftOperation="U:ru_Vmz9WEeegg52wCyC9xw" mergedFields="U:ru_8zz9WEeegg52wCyC9xw" replacementFieldEnd="U:ru_8zz9WEeegg52wCyC9xw" replacementFieldStart="U:ru_8zz9WEeegg52wCyC9xw">
+<fields>
+<D_FieldBase imx:id="U:ru_Vnz9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:ru_8zD9WEeegg52wCyC9xw" name="partitionId"/>
+<D_FieldBase imx:id="U:ru_VoD9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:ru_8zT9WEeegg52wCyC9xw" name="key"/>
+<D_FieldBase imx:id="U:ru_VoT9WEeegg52wCyC9xw" xsi:type="projection:D_OpFieldRef" ancestorField="U:ru_8zj9WEeegg52wCyC9xw" name="TopicName"/>
+<D_FieldBase imx:id="U:ru_Voj9WEeegg52wCyC9xw" xsi:type="projection:D_DerivedField" ancestorField="U:ru_8zz9WEeegg52wCyC9xw" name="data" precision="65535" type="smd:com.informatica.adapter.kafka.typesystem.KafkaTypeSystem.typesystem%2Fbinary"/>
+</fields>
+<dataFormatConfigs>
+<L_DataFormatConfig imx:id="ID_42" xsi:type="dataformatconfig:P_DataFormatConfig" dataFormat="JSON" schema="%7B%0D%0A%09%22sell%22:+%2217.370%22%2C%0D%0A%09%22nmc%22:+694400%2C%0D%0A%09%22code%22:+%22002080%22%2C%0D%0A%09%22symbol%22:+%22sz002080%22%2C%0D%0A%09%22ticktime%22:+%222017-05-1716:+35:+03%22%2C%0D%0A%09%22pricechange%22:+%220.300%22%2C%0D%0A%09%22buy%22:+%2217.360%22%2C%0D%0A%09%22favor%22:+%22%22%2C%0D%0A%09%22mktcap%22:+1400587.76116%2C%0D%0A%09%22per%22:+32.904%2C%0D%0A%09%22volume%22:+%223118747%22%2C%0D%0A%09%22turnoverratio%22:+0.77969%2C%0D%0A%09%22settlement%22:+%2217.060%22%2C%0D%0A%09%22stock_type%22:+%22%EF%BF%BD%EF%BF%BD%D0%A1%EF%BF%BD%EF%BF%BD%22%2C%0D%0A%09%22name%22:+%22%EF%BF%BD%D0%B2%C4%BF%C6%BC%EF%BF%BD%22%2C%0D%0A%09%22open%22:+%2217.070%22%2C%0D%0A%09%22amount%22:+%2254144868%22%2C%0D%0A%09%22high%22:+%2217.600%22%2C%0D%0A%09%22trade%22:+%2217.360%22%2C%0D%0A%09%22low%22:+%2217.040%22%2C%0D%0A%09%22guba%22:+%22%22%2C%0D%0A%09%22changepercent%22:+%221.759%22%2C%0D%0A%09%22nta%22:+%2210.0777%22%2C%0D%0A%09%22per_d%22:+30.239%2C%0D%0A%09%22pb%22:+1.723%0D%0A%7D"/>
+</dataFormatConfigs>
+</D_OperationBase>
+<D_OperationBase imx:id="U:ru_Vnj9WEeegg52wCyC9xw" xsi:type="sinkoperation:D_NativeSink" name="NativeSink" inputOperation="U:ru_VnT9WEeegg52wCyC9xw" node="U:v-P7CjtuEeegF46vxu3FcQ"/>
+</operations>
+</D_Projection>
+</projections>
+<writeCapAttributes>
+<D_WriteCapabilityAttributes imx:id="ID_43" xsi:type="capabilityattribute:D_WriteCapabilityAttributes">
+<modelExtension imx:id="ID_44" xsi:type="asoextension:D_GenericModelExtensionWriteCapAttributes">
+<genericContainer imx:id="ID_45" xsi:type="genericextension:ExtensionContainer" extensionClass="com.informatica.adapter.kafka.topic.runtime.capability.TopicWriteCapabilityAttributesExtension" markerClass="com.informatica.adapter.sdkadapter.capabilityattribute.D_WriteCapabilityAttributes" version="1.0.0">
+<attributes>
+<ExtensionAttribute imx:id="ID_46" xsi:type="genericextension:ExtensionAttribute" propertyName="batchSize">
+<propertyValue imx:id="ID_47" xsi:type="genericextension:IntValue" dataValue="16384"/>
+</ExtensionAttribute>
+<ExtensionAttribute imx:id="ID_48" xsi:type="genericextension:ExtensionAttribute" propertyName="batchSize%24">
+<propertyValue imx:id="ID_49" xsi:type="genericextension:ParameterValue"/>
+</ExtensionAttribute>
+<ExtensionAttribute imx:id="ID_50" xsi:type="genericextension:ExtensionAttribute" propertyName="lingerTime">
+<propertyValue imx:id="ID_51" xsi:type="genericextension:LongValue" dataValue="1000"/>
+</ExtensionAttribute>
+<ExtensionAttribute imx:id="ID_52" xsi:type="genericextension:ExtensionAttribute" propertyName="mdFetchTimeout">
+<propertyValue imx:id="ID_53" xsi:type="genericextension:LongValue" dataValue="10000"/>
+</ExtensionAttribute>
+</attributes>
+</genericContainer>
+</modelExtension>
+</D_WriteCapabilityAttributes>
+</writeCapAttributes>
+</D_ASOOperation>
+</asoOperations>
+<defaultRuntimeConfig imx:id="U:v-P7BztuEeegF46vxu3FcQ" xsi:type="asoconfig:D_ASORuntimeConfig" connectInfo="stringIdentity:DFS_KAFKA" connectionName="DFS_KAFKA"/>
+<lGraph imx:id="U:v-P7CDtuEeegF46vxu3FcQ" xsi:type="catalog:P_Catalog" extensionId="com.informatica.adapter.kafka" name="graph" nmoType="topic" patternName="kafkakafka_Topic_Pattern" rootNodes="U:v-P7CztuEeegF46vxu3FcQ">
+<arcs>
+<L_Arc imx:id="U:v-P7CTtuEeegF46vxu3FcQ" xsi:type="container:P_ContainerRelationship" child="U:v-P7CjtuEeegF46vxu3FcQ" name="Topics-%3Esina_finance_stock_a" parent="U:v-P7CztuEeegF46vxu3FcQ"/>
+</arcs>
+<nodes>
+<L_Node imx:id="U:v-P7CjtuEeegF46vxu3FcQ" xsi:type="flatrecord:P_FlatRecord" nativeName="sina_finance_stock_a" name="sina_finance_stock_a" nmoType="topic">
+<extensions imx:id="ID_54" xsi:type="logical:L_GenericModelExtensionNode">
+<genericContainer imx:id="ID_55" xsi:type="genericextension:ExtensionContainer" extensionClass="com.informatica.adapter.kafka.topic.metadata.TopicRecordExtensions" markerClass="com.informatica.adapter.sdkadapter.patternblocks.flatrecord.P_FlatRecord" version="1.0.0"/>
+</extensions>
+<fields>
+<L_FieldBase imx:id="U:v-P7DDtuEeegF46vxu3FcQ" xsi:type="field:P_Field" name="partitionId" nativeName="partitionId" type="smd:com.informatica.adapter.kafka.typesystem.KafkaTypeSystem.typesystem%2Finteger" fieldType="IN_TYPE" length="12" precision="12">
+<extensions imx:id="ID_56" xsi:type="logical:L_GenericModelExtensionFieldBase">
+<genericContainer imx:id="ID_57" xsi:type="genericextension:ExtensionContainer" extensionClass="com.informatica.adapter.kafka.topic.metadata.TopicFieldExtensions" markerClass="com.informatica.adapter.sdkadapter.patternblocks.field.P_Field" version="1.0.0"/>
+</extensions>
+</L_FieldBase>
+<L_FieldBase imx:id="U:v-P7DTtuEeegF46vxu3FcQ" xsi:type="field:P_Field" name="key" nativeName="key" type="smd:com.informatica.adapter.kafka.typesystem.KafkaTypeSystem.typesystem%2Fstring" fieldType="IN_TYPE" length="255" precision="255">
+<extensions imx:id="ID_58" xsi:type="logical:L_GenericModelExtensionFieldBase">
+<genericContainer imx:id="ID_59" xsi:type="genericextension:ExtensionContainer" extensionClass="com.informatica.adapter.kafka.topic.metadata.TopicFieldExtensions" markerClass="com.informatica.adapter.sdkadapter.patternblocks.field.P_Field" version="1.0.0"/>
+</extensions>
+</L_FieldBase>
+<L_FieldBase imx:id="U:v-P7DjtuEeegF46vxu3FcQ" xsi:type="field:P_Field" name="TopicName" nativeName="TopicName" type="smd:com.informatica.adapter.kafka.typesystem.KafkaTypeSystem.typesystem%2Fstring" fieldType="IN_TYPE" length="255" precision="255">
+<extensions imx:id="ID_60" xsi:type="logical:L_GenericModelExtensionFieldBase">
+<genericContainer imx:id="ID_61" xsi:type="genericextension:ExtensionContainer" extensionClass="com.informatica.adapter.kafka.topic.metadata.TopicFieldExtensions" markerClass="com.informatica.adapter.sdkadapter.patternblocks.field.P_Field" version="1.0.0"/>
+</extensions>
+</L_FieldBase>
+<L_FieldBase imx:id="U:v-P7DztuEeegF46vxu3FcQ" xsi:type="field:P_Field" name="data" nativeName="data" type="smd:com.informatica.adapter.kafka.typesystem.KafkaTypeSystem.typesystem%2Fbinary" length="65535" precision="65535">
+<extensions imx:id="ID_62" xsi:type="logical:L_GenericModelExtensionFieldBase">
+<genericContainer imx:id="ID_63" xsi:type="genericextension:ExtensionContainer" extensionClass="com.informatica.adapter.kafka.topic.metadata.TopicFieldExtensions" markerClass="com.informatica.adapter.sdkadapter.patternblocks.field.P_Field" version="1.0.0"/>
+</extensions>
+</L_FieldBase>
+</fields>
+</L_Node>
+<L_Node imx:id="U:v-P7CztuEeegF46vxu3FcQ" xsi:type="container:P_Package" name="Topics" nativeName="Topics"/>
+</nodes>
+</lGraph>
+<genericContainer imx:id="ID_64" xsi:type="genericextension:ExtensionContainer" extensionClass="com.informatica.adapter.kafka.runtime.aso.ComplexASO"/>
+</aso:D_GenericComplexASO>
+<project:Project imx:id="U:PA_ltQ7fEeePNyb9T1XDlw" name="PRJ_HIVE">
+<imx:annotations>
+<imx:IGenericAnnotations>
+<com.informatica.tools.objectie key1="projectName" value1="M101_INFA210"/>
+</imx:IGenericAnnotations>
+</imx:annotations>
+<annotations>
+<Annotation imx:id="ID_65" xsi:type="description:Description"/>
+</annotations>
+<contents>
+<IObject imx:idref="U:m7gYxRnzEeeAiiXL-0nw7Q" xsi:type="mapping:Mapping"/>
+<IObject imx:idref="U:ly5iChqYEee27w6rmwfkcw" xsi:type="datarecord:Table"/>
+<IObject imx:idref="U:v-GxFjtuEeegF46vxu3FcQ" xsi:type="aso:D_GenericComplexASO"/>
+</contents>
+</project:Project>
+<connection:KafkaConnectInfo imx:id="stringIdentity:DFS_KAFKA" connectionType="com.informatica.adapter.kafka.connection.KafkaConnectInfo" name="DFS_KAFKA">
+<defaultAttributes imx:id="U:V7vrjhnzEeemOmXN-__kng" xsi:type="connectinfo:ConnectionPoolAttributes"/>
+<sdkConnectInfoModelExtension imx:id="ID_66" xsi:type="connection:KafkaConnectInfoExtension"/>
+</connection:KafkaConnectInfo>
+<connection1:SDKHadoopExecEnvConnectInfo imx:id="stringIdentity:DFS_HADOOP" connectionType="com.infa.adapter.hadoop.connection.SDKHadoopExecEnvConnectInfo" name="DFS_HADOOP">
+<defaultAttributes imx:id="U:f0k-2w7cEeehhTZit-DMTA" xsi:type="connectinfo:ConnectionPoolAttributes"/>
+<sdkConnectInfoModelExtension imx:id="ID_67" xsi:type="connection1:SDKHadoopExecEnvConnectInfoExtension"/>
+</connection1:SDKHadoopExecEnvConnectInfo>
+<Hive:HiveConnectInfo imx:id="stringIdentity:HIVE_INFA_TGT" connectionType="com.informatica.adapter.Hive.HiveConnectInfo" name="HIVE_INFA_TGT">
+<defaultAttributes imx:id="U:-lpfmBqXEeemOmXN-__kng" xsi:type="connectinfo:ConnectionPoolAttributes"/>
+<modelExtension imx:id="ID_68" xsi:type="Hive:HiveConnectInfoExtension"/>
+</Hive:HiveConnectInfo>
+<imx:crc value="3121127989"/>
+</imx:IMX>
