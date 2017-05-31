@@ -8,3 +8,7 @@
 
 ###元数据迁移
 [元数据迁移](MigrationA.md)
+
+
+### 其它
+[PowerCenter分类](PWCTypes.md)

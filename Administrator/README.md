@@ -14,6 +14,7 @@
 ###PowerCenter
 ######[PWC安装与配置](PWC/README.md)
 ######[元数据迁移](PWC/MigrationA.md)
+######[PowerCenter分类](PWC/PWCTypes.md)
 
 ###DDM
 ######[DDM换License](DDM/ChangeLicense.md)

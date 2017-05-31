@@ -20,6 +20,7 @@
     * PowerCenter
         * [PWC安装与配置](Administrator/PWC/README.md)
 		* [元数据迁移](Administrator/PWC/MigrationA.md)
+		* [PowerCenter分类](Administrator/PWC/PWCTypes.md)
     * DDM
         * [DDM换License](Administrator/DDM/ChangeLicense.md)
     * Cloud
