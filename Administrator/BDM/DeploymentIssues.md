@@ -28,14 +28,10 @@
 
 一般使用最多的就是Export Object Metadata File了，它可以将对应的对象导出为XML文件。
 
-如果是PowerCenter，那么可以导出到传统的PowerCenter资料库里。
-
-> Mapping可以在
-
-
 ## 相同版本之间的导入
 
 如果PowerCenter BDM版本一样的话，可以直接相互之间导出再导入。
+
 
 ## 从低版本导入到高版本
 
@@ -81,3 +77,6 @@
 -DskipCrcValidation=true
 ```
 
+## BDM与PowerCenter之间迁移
+
+在Developer里可以实现Mapping/Maplet在Mercury和PowerCenter之间跨版本导入或者导出
