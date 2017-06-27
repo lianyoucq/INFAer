@@ -31,6 +31,7 @@
 	* BDM
 		* [BDM概要](Administrator/BDM/README.md)
         * [Mercury Platform元数据迁移](Administrator/BDM/DeploymentIssues.md)
+        * [Developer客户端设置为英文](Administrator/BDM/Developer_Language_EN.md)
 * [INFA扩展](Extools/README.md)
     * [rmail](Extools/rmail/README.md)
 * [FAQ](FAQ/README.md)
