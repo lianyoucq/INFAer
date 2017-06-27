@@ -25,6 +25,7 @@
 
 ###BDM
 ######[BDM概要](BDM/README.md)
+######[Mercury Platform元数据迁移](BDM/DeploymentIssues.md)
 
 ###ActiveVOS
 ActiveVOS是一个BPM软件，它可以和MDM集成，也可以单独使用。
