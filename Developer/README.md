@@ -18,6 +18,7 @@
 
 [GBK字符集](codepage/GBK.md)
 
+
 ## 集成服务
 
 [DataMovementMode](is/datamovementmode.md)
@@ -29,6 +30,7 @@
 ## 乱码
 [乱码](codepage/GarbagedCharacters.md)
 
+[字符集编码处理实战](codepage/codepage_practice.md)
 
 ## BDM
 [BDM接入KAFKA](devm/BDM_KAFKA.md)

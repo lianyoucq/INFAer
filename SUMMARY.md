@@ -12,6 +12,7 @@
     * [ASCII模式一丁点补充](Developer/is/ASCII.md)
     * [参数文件](Developer/parameterFiles.md)
     * [乱码](Developer/codepage/GarbagedCharacters.md)
+    * [字符集编码处理实战](Developer/codepage/codepage_practice.md)
 	* [BDM接入KAFKA](Developer/devm/BDM_KAFKA.md)
 * [INFA管理](Administrator/README.md)
     * Linux
