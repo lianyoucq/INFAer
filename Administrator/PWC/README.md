@@ -11,6 +11,6 @@
 
 
 ### 其它
-[PowerCenter分类](PWCTypes.md)
-[FTP服务的创建](FTPServices.md)
-[FTP连接创建和使用](FTPConnection.md)
+- [PowerCenter分类](PWCTypes.md)
+- [FTP服务的创建](FTPServices.md)
+- [FTP连接创建和使用](FTPConnection.md)
