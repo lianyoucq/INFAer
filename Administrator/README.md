@@ -15,6 +15,8 @@
 ######[PWC安装与配置](PWC/README.md)
 ######[元数据迁移](PWC/MigrationA.md)
 ######[PowerCenter分类](PWC/PWCTypes.md)
+######[FTP服务的创建](PWC/FTPServices.md)
+######[FTP连接创建和使用](PWC/FTPConnection.md)
 
 ###DDM
 ######[DDM换License](DDM/ChangeLicense.md)
