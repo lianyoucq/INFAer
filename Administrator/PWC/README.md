@@ -14,3 +14,4 @@
 - [PowerCenter分类](PWCTypes.md)
 - [FTP服务的创建](FTPServices.md)
 - [FTP连接创建和使用](FTPConnection.md)
+- [HTTP Transformation调用HTTPS](HttpTransformation_Https_URL.md)

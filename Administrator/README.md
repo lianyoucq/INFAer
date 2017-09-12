@@ -17,6 +17,7 @@
 ######[PowerCenter分类](PWC/PWCTypes.md)
 ######[FTP服务的创建](PWC/FTPServices.md)
 ######[FTP连接创建和使用](PWC/FTPConnection.md)
+######[HTTP Transformation调用HTTPS](PWC/HttpTransformation_Https_URL.md)
 
 ###DDM
 ######[DDM换License](DDM/ChangeLicense.md)

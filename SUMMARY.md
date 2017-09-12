@@ -24,6 +24,7 @@
 		* [PowerCenter分类](Administrator/PWC/PWCTypes.md)
         * [FTP服务的创建](Administrator/PWC/FTPServices.md)
         * [FTP连接创建和使用](Administrator/PWC/FTPConnection.md)
+        * [HTTP Transformation调用HTTPS](Administrator/PWC/HttpTransformation_Https_URL.md)
     * DDM
         * [DDM换License](Administrator/DDM/ChangeLicense.md)
     * Cloud
