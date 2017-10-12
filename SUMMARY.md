@@ -25,6 +25,7 @@
         * [FTP服务的创建](Administrator/PWC/FTPServices.md)
         * [FTP连接创建和使用](Administrator/PWC/FTPConnection.md)
         * [HTTP Transformation调用HTTPS](Administrator/PWC/HttpTransformation_Https_URL.md)
+        * [Informatica repository manager encountered an improper argument](Administrator/PWC/REP_MANAGER_CLIENT_ENCOUNTERED_AN_IMPROPER_ARGUMENT.md)
     * DDM
         * [DDM换License](Administrator/DDM/ChangeLicense.md)
     * Cloud

@@ -15,3 +15,4 @@
 - [FTP服务的创建](FTPServices.md)
 - [FTP连接创建和使用](FTPConnection.md)
 - [HTTP Transformation调用HTTPS](HttpTransformation_Https_URL.md)
+- [Informatica repository manager encountered an improper argument](REP_MANAGER_CLIENT_ENCOUNTERED_AN_IMPROPER_ARGUMENT.md)
