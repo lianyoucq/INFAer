@@ -16,8 +16,12 @@
 
 ## INFA\_TRUSTSTORE\_PASSWORD
 
-> 如果是使用Informatica默认的选项，那么此参数不用设置
+> 如果是使用Informatica默认的选项，那么此参数不用设置。
 
+* 使用pmpasswd工具加密原始的truststore 密码
+```shell
+$INFA_HOME/server/bin/pmpasswd 《truststore_password》 -e CRYPT_SYSTEM
+```
 
 
 ## 
