@@ -10,9 +10,9 @@
 
 * 如果没有使用Informatica默认的选项，那么需要指定自己所定义的目录
 
-* 在客户端或者Command line utilities的机器上，需要将服务器上`$INFA\_HOME/services/shared/security/infa\_truststore.jks`  和`$INFA\_HOME/services/shared/security/infa\_truststore.pem` 两个文件下载到默认目录《Client安装目录》\clients\shared\security或者自定义目录，例如c:/security/infa10.2.0
+* 在客户端或者Command line utilities的机器上，需要将服务器上`$INFA\_HOME/services/shared/security/infa\_truststore.jks`  和`$INFA\_HOME/services/shared/security/infa\_truststore.pem` 两个文件下载到默认目录《Client安装目录》\clients\shared\security或者自定义目录，例如c:\\security\\infa10.2.0
 
-* 在windows用户下或者Command line utilities的用户下设置**INFA_TRUSTSTORE**为第三步下载文件的目录，例如，第三步自定义目录：c:/security/infa10.2.0
+* 在windows用户下或者Command line utilities的用户下设置**INFA_TRUSTSTORE**为第三步下载文件的目录，例如，第三步自定义目录：c:\\security\\infa10.2.0
 
 ## INFA\_TRUSTSTORE\_PASSWORD
 
