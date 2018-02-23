@@ -27,6 +27,7 @@
     * [HTTP Transformation调用HTTPS](Administrator/PWC/HttpTransformation_Https_URL.md)
     * [Informatica repository manager encountered an improper argument](Administrator/PWC/REP_MANAGER_CLIENT_ENCOUNTERED_AN_IMPROPER_ARGUMENT.md)
     * [Disable Secure Communication](Administrator/PWC/disablesecurecommunication.md)
+    * [Secure Communication Configuration](Administrator/PWC/secure-communication-configuration.md)
   * DDM
     * [DDM换License](Administrator/DDM/ChangeLicense.md)
   * Cloud
