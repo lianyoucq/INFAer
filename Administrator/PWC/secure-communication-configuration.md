@@ -22,9 +22,10 @@
 ```shell
 $INFA_HOME/server/bin/pmpasswd 《truststore_password》 -e CRYPT_SYSTEM
 ```
+* 设置 **INFA\_TRUSTSTORE\_PASSWORD**为上一步加密之后的密码
 
-
-## 
+## 重启客户端让环境变量生效
+ 
 
 
 
