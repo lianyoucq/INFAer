@@ -35,6 +35,7 @@ $INFA_HOME/isp/bin/infasetup.sh updateworkernode -tls false
 >
 > 1. 上面示例中的命令需要在对应的服务器上执行，如果远程执行，需要指定相关节点信息等参数
 > 2. 需要在Domain 服务停止状态执行
+> 3. Domain上的Secure Communication选项操作和此步骤必须一致，要么都关闭，要么都开启，如果不一致，Domain将无法启动。
 
 ## Administrator Console关闭Secure Communication
 
