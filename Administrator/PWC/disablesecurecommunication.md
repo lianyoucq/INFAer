@@ -34,7 +34,7 @@ $INFA_HOME/isp/bin/infasetup.sh updateworkernode -tls false
 > 注意：
 >
 > 1. 上面示例中的命令需要在对应的服务器上执行，如果远程执行，需要指定相关节点信息等参数
-> 2.  需要在Domain 服务停止状态执行
+> 2. 需要在Domain 服务停止状态执行
 
 ## Administrator Console关闭Secure Communication
 
@@ -54,9 +54,9 @@ $INFA_HOME/isp/bin/infasetup.sh updateworkernode -hs 0
 >
 > 1. 上面示例中的命令需要在对应的服务器上执行，如果远程执行，需要指定相关节点信息等参数
 >
->     2. 需要在Domain 服务停止状态执行
-
-### 如果此步骤没有执行，那么Administrator Console任然运行着https
+> 2. 需要在Domain 服务停止状态执行
+>
+> 3. 如果此步骤没有执行，那么Administrator Console任然运行着https
 
 
 
