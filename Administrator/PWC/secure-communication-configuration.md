@@ -16,6 +16,8 @@
 
 ## INFA\_TRUSTSTORE\_PASSWORD
 
+> 如果是使用Informatica默认的选项，那么此参数不用设置
+
 
 
 ## 
