@@ -16,6 +16,17 @@
     ```
     
     
+## Node上关闭Secure Communication
+### Gateway Node
+```shell
+$INFA_HOME/isp/bin/infasetup.sh updategatewaynode -hs false
+```
 
+### Worker Node
+```
+$INFA_HOME/isp/bin/infasetup.sh updateworkernode -hs false
+```
+
+> 注意：上面示例中的命令需要在对应的服务器上执行，如果远程执行，需要指定相关节点信息等参数
 
 
