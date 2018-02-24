@@ -39,6 +39,4 @@ $INFA_HOME/isp/bin/infasetup.sh updateworkernode -hs 8443 -kf $INFA_HOME/tomcat/
 ```
 
 
-
-
 当然开启Node和Administrator Console的Secure Communication步骤可以一步执行。
