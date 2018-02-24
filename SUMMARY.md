@@ -28,6 +28,7 @@
     * [Informatica repository manager encountered an improper argument](Administrator/PWC/REP_MANAGER_CLIENT_ENCOUNTERED_AN_IMPROPER_ARGUMENT.md)
     * [Disable Secure Communication](Administrator/PWC/disablesecurecommunication.md)
     * [Secure Communication Configuration](Administrator/PWC/secure-communication-configuration.md)
+    * [Recovery Secure Communication](Administrator/PWC/recovery-secure-communication.md)
   * DDM
     * [DDM换License](Administrator/DDM/ChangeLicense.md)
   * Cloud
