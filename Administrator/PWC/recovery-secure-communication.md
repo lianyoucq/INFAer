@@ -16,8 +16,11 @@ $INFA_HOME/isp/bin/infacmd.sh updatedomainoptions -dn 《Domain_Name》 \
 -un 《Administrator》 -pd 《Administrator's Password》-do TLSMode=true
 ```
 
-## 开启Node和Administrator Console的Secure Communication
+## 开启Node的Secure Communication
+### GatewayNode
 
 ```shell
 $INFA_HOME/isp/bin/infasetup.sh updategatewaynode -tls true -hs 8443 -kf $INFA_HOME/tomcat/conf/Default.keystore
 ```
+
+### WorkerNode
