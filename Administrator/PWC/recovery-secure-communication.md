@@ -1,6 +1,6 @@
 # 恢复Secure Communication
 
-如果在执行[关闭Secure Communication](/Administrator/PWC/disablesecurecommunication.md "关闭Secure Communication")之后
+如果在执行[关闭Secure Communication](/Administrator/PWC/disablesecurecommunication.md "关闭Secure Communication")之后又想恢复Secure Communication
 
 
 
