@@ -18,3 +18,6 @@ $INFA_HOME/isp/bin/infacmd.sh updatedomainoptions -dn 《Domain_Name》 \
 
 ## 开启Node和Administrator Console的Secure Communication
 
+```shell
+/opt/Informatica/arli1020/isp/bin/infasetup.sh updategatewaynode -tls true -hs 8843 -kf /opt/Informatica/arli1020/tomcat/conf/Default.keystore
+```
