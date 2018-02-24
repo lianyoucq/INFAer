@@ -19,5 +19,5 @@ $INFA_HOME/isp/bin/infacmd.sh updatedomainoptions -dn 《Domain_Name》 \
 ## 开启Node和Administrator Console的Secure Communication
 
 ```shell
-$INFA_HOME/isp/bin/infasetup.sh updategatewaynode -tls true -hs 8843 -kf $INFA_HOME/tomcat/conf/Default.keystore
+$INFA_HOME/isp/bin/infasetup.sh updategatewaynode -tls true -hs 8443 -kf $INFA_HOME/tomcat/conf/Default.keystore
 ```
