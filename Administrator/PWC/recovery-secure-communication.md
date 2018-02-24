@@ -14,6 +14,8 @@ Domain &gt; Properties &gt; General Properties &gt; Enable Secure Communication
 
 ```shell
 $INFA_HOME/isp/bin/infacmd.sh updatedomainoptions -dn 《Domain_Name》 \
--un 《Administrator》 -pd 《Administrator's Password》-do TLSMode=false
+-un 《Administrator》 -pd 《Administrator's Password》-do TLSMode=true
 ```
+
+
 
