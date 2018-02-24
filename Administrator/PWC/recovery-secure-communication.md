@@ -24,6 +24,7 @@ $INFA_HOME/isp/bin/infasetup.sh updategatewaynode -tls true -hs 8443 -kf $INFA_H
 
 ### WorkerNode
 ```shell
-$INFA_HOME/isp/bin/infasetup.sh updategatewaynode -tls true -hs 8443 -kf $INFA_HOME/tomcat/conf/Default.keystore
+$INFA_HOME/isp/bin/infasetup.sh updateworkernode -tls true -hs 8443 -kf $INFA_HOME/tomcat/conf/Default.keystore
 ```
 
+## 开启Administrator Console的Secure Communication
