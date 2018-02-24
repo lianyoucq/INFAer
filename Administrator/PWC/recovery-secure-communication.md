@@ -16,6 +16,5 @@ $INFA_HOME/isp/bin/infacmd.sh updatedomainoptions -dn 《Domain_Name》 \
 -un 《Administrator》 -pd 《Administrator's Password》-do TLSMode=true
 ```
 
-
-
+## 开启Node和Administrator Console的Secure Communication
 
