@@ -9,7 +9,7 @@
 > 注：Oracle Linux 并没有在PAM文档中，这里只是测试环境，如果有条件的，请使用Redhat等在PAM支持列表的里的操作系统。
 
 ### Linux
-######[Linux安装与配置](LINUX/README.md)
+###### [Linux安装与配置](LINUX/README.md)
 
 ### PowerCenter
 ###### [PWC安装与配置](PWC/README.md)
