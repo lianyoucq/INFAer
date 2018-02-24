@@ -28,5 +28,3 @@ $INFA_HOME/server/bin/pmpasswd 《truststore_password》 -e CRYPT_SYSTEM
 
 ## 重启客户端让环境变量生效
  
-## 环境变量不设置或者设置有问题
-### Developer客户端为例
