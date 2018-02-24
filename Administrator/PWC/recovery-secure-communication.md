@@ -11,10 +11,10 @@
     Domain &gt; Properties &gt; General Properties &gt; Enable Secure Communication
 
 * Command
-```shell
-$INFA_HOME/isp/bin/infacmd.sh updatedomainoptions -dn 《Domain_Name》 \
--un 《Administrator》 -pd 《Administrator's Password》-do TLSMode=true
-```
+    ```shell
+    $INFA_HOME/isp/bin/infacmd.sh updatedomainoptions -dn 《Domain_Name》 \
+    -un 《Administrator》 -pd 《Administrator's Password》-do TLSMode=true
+    ```
 
 ## 开启Node的Secure Communication
 ### GatewayNode
@@ -42,4 +42,4 @@ $INFA_HOME/isp/bin/infasetup.sh updateworkernode -hs 8443 -kf $INFA_HOME/tomcat/
 当然开启Node和Administrator Console的Secure Communication步骤可以一步执行。
 
 
-## 
+## 从没有开启Secure Communication如何开启
