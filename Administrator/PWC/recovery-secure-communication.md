@@ -39,7 +39,7 @@ $INFA_HOME/isp/bin/infasetup.sh updateworkernode -hs 8443 -kf $INFA_HOME/tomcat/
 ```
 
 > 注意
--kf指向的keystore文件默认应该是$INFA_HOME/tomcat/conf/Default.keystore
+-kf 默认指向的keystore文件应该是$INFA_HOME/tomcat/conf/Default.keystore
 
 当然开启Node和Administrator Console的Secure Communication步骤可以一步执行。
 
