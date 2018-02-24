@@ -45,3 +45,4 @@ $INFA_HOME/isp/bin/infasetup.sh updateworkernode -hs 8443 -kf $INFA_HOME/tomcat/
 
 
 ## 从没有开启Secure Communication如何开启
+参考[KB 511374](https://kb.informatica.com/howto/6/Pages/20/511374.aspx?myk=511374)
