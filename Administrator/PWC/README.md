@@ -6,7 +6,7 @@
 请看[Linux系统安装与配置](../LINUX/README.md)
 
 
-###元数据迁移
+### 元数据迁移
 [元数据迁移](MigrationA.md)
 
 
