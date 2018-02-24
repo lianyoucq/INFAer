@@ -18,7 +18,7 @@
   * Linux
     * [Linux安装与配置](Administrator/LINUX/README.md)
     * [Linux基本操作](Administrator/LINUX/BaseOperations.md)
-  * PowerCenter
+  * [PowerCenter](Administrator/powercenter.md)
     * [PWC安装与配置](Administrator/PWC/README.md)
     * [元数据迁移](Administrator/PWC/MigrationA.md)
     * [PowerCenter分类](Administrator/PWC/PWCTypes.md)
