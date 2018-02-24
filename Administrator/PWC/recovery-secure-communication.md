@@ -19,12 +19,12 @@ $INFA_HOME/isp/bin/infacmd.sh updatedomainoptions -dn 《Domain_Name》 \
 ## 开启Node的Secure Communication
 ### GatewayNode
 ```shell
-$INFA_HOME/isp/bin/infasetup.sh updategatewaynode -tls true -hs 8443 -kf $INFA_HOME/tomcat/conf/Default.keystore
+$INFA_HOME/isp/bin/infasetup.sh updategatewaynode -tls true
 ```
 
 ### WorkerNode
 ```shell
-$INFA_HOME/isp/bin/infasetup.sh updateworkernode -tls true -hs 8443 -kf $INFA_HOME/tomcat/conf/Default.keystore
+$INFA_HOME/isp/bin/infasetup.sh updateworkernode -tls true
 ```
 
 ## 开启Administrator Console的Secure Communication
@@ -38,3 +38,7 @@ $INFA_HOME/isp/bin/infasetup.sh updategatewaynode -hs 8443 -kf $INFA_HOME/tomcat
 $INFA_HOME/isp/bin/infasetup.sh updateworkernode -hs 8443 -kf $INFA_HOME/tomcat/conf/Default.keystore
 ```
 
+
+
+
+当然开启Node和Administrator Console的Secure Communication步骤可以一步执行。
