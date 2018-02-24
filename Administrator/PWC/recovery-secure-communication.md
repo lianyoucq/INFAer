@@ -8,14 +8,14 @@
 
 * Administrator Console
 
-Domain &gt; Properties &gt; General Properties &gt; Enable Secure Communication
+    Domain &gt; Properties &gt; General Properties &gt; Enable Secure Communication
 
 * Command
-
 ```shell
 $INFA_HOME/isp/bin/infacmd.sh updatedomainoptions -dn 《Domain_Name》 \
 -un 《Administrator》 -pd 《Administrator's Password》-do TLSMode=true
 ```
+
 
 
 
