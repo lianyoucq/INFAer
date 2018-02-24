@@ -19,9 +19,9 @@
 ######[FTP连接创建和使用](PWC/FTPConnection.md)
 ######[HTTP Transformation调用HTTPS](PWC/HttpTransformation_Https_URL.md)
 ######[Informatica repository manager encountered an improper argument](PWC/REP_MANAGER_CLIENT_ENCOUNTERED_AN_IMPROPER_ARGUMENT.md)
-###### [Secure Communication配置](PWC//Administrator/PWC/secure-communication-configuration.md)
-###### [关闭Secure Communication](PWC//Administrator/PWC/disablesecurecommunication.md)
-###### [恢复Secure Communication](/Administrator/PWC/recovery-secure-communication.md)
+###### [Secure Communication配置](PWC/Administrator/PWC/secure-communication-configuration.md)
+###### [关闭Secure Communication](PWC/Administrator/PWC/disablesecurecommunication.md)
+###### [恢复Secure Communication](PWC/Administrator/PWC/recovery-secure-communication.md)
 
 
 ### DDM
