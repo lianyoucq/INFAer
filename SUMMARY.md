@@ -29,6 +29,7 @@
     * [Disable Secure Communication](Administrator/PWC/disablesecurecommunication.md)
     * [Secure Communication Configuration](Administrator/PWC/secure-communication-configuration.md)
     * [Recovery Secure Communication](Administrator/PWC/recovery-secure-communication.md)
+    * [3td party driver installation configuration ](Administrator/PWC/3td-party-driver-installation-configuration.md)
   * DDM
     * [DDM换License](Administrator/DDM/ChangeLicense.md)
   * Cloud
