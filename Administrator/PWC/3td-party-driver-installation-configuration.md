@@ -1,8 +1,14 @@
 # 第三方驱动安装与配置-MySQL
 
  `PowerCenter`自带的驱动是`DataDirect`提供的，有些驱动是没有的，而且也有一些限制，例如`MySQL Enterprise`不支持。这里就以`MySQL Community`为例
- 
- > 注意：
+ > 简明的步骤
+ > 1. 下载Server和Client对应的ODBC驱动，并安装
+ > 2. 安装UnixODBC
+ > 3. 在Linux环境下使用ldd命令验证库的完整性
+ > 4. PowerCenter用户下ODBCINI文件里配置DSN信息
+ > 5. 使用isql（UnixODBC自带的工具）或者ssgodbc（PowerCenter自带的工具）测试DSN
+
+ >> 注意：
  > 如果使用第三方驱动，将无法得到`Informatica`技术支持
  
  
@@ -85,7 +91,9 @@ ldd libmyodbc5a.so
 
 ### 配置`ODBCINI`
 > 注意：
-> 需要在环境变量里配置`ODBCINI`环境变量
+> 需要在环境变量里配置`ODBCINI`环境变量,
+> 例如在Bash shell下设置ODBCINI环境变量:
+>> export ODBCINI=$INFA_HOME/ODBC7.1/odbc.ini
 
 ```shell
 [mysql_test]
@@ -98,7 +106,7 @@ DriverUnicodeType=1
 PASSWORD=
 PORT=3306
 ```
-
+具体的选项请参考官网
 
 ### 测试DNS
 #### `isql`
