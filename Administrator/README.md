@@ -22,6 +22,7 @@
 ###### [Secure Communication配置](PWC/Administrator/PWC/secure-communication-configuration.md)
 ###### [关闭Secure Communication](PWC/Administrator/PWC/disablesecurecommunication.md)
 ###### [恢复Secure Communication](PWC/Administrator/PWC/recovery-secure-communication.md)
+###### [第三方驱动安装与配置-MySQL](/Administrator/PWC/3td-party-driver-installation-configuration.md)
 
 
 ### DDM
