@@ -1,6 +1,6 @@
 # 第三方驱动安装与配置-MySQL
 
- `PowerCenter`自带的驱动是`DataDirect`提供的，有些驱动是没有的，而且也有一些限制，例如`MySQL Enterprise`不支持。这里就以`MySQL Community`为例
+ `PowerCenter`自带的驱动是`DataDirect`提供的，有些驱动是没有的，而且也有一些限制，例如`MySQL Community`不支持。这里就以`MySQL Community`为例
  > 简明的步骤
  > 1. 下载Server和Client对应的ODBC驱动，并安装
  > 2. 安装UnixODBC
