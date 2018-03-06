@@ -88,6 +88,7 @@ ldd libmyodbc5a.so
 	/lib64/ld-linux-x86-64.so.2 (0x00000033bf800000)
 
 ```
+如果里面有一些库没有找到，有可能是没有安装或者没有配置好LD_LIBRARY_PATH环境变量就会解决问题。
 
 ### 配置`ODBCINI`
 > 注意：
