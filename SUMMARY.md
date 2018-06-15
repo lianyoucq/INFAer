@@ -14,6 +14,7 @@
   * [乱码](Developer/codepage/GarbagedCharacters.md)
   * [字符集编码处理实战](Developer/codepage/codepage_practice.md)
   * [BDM接入KAFKA](Developer/devm/BDM_KAFKA.md)
+  * [使用Web Service实现列级别的显示](Developer/ws/privs_based_fields.md)
 * [INFA管理](Administrator/README.md)
   * Linux
     * [Linux安装与配置](Administrator/LINUX/README.md)

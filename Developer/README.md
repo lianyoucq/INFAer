@@ -34,3 +34,7 @@
 
 ## BDM
 [BDM接入KAFKA](devm/BDM_KAFKA.md)
+
+
+## WebService
+[使用Web Service实现列级别的显示](ws/privs_based_fields.md)
